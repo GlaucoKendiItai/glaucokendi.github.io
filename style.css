@@ -271,4 +271,145 @@ footer {
     .container {
         margin-top: -1.5rem;
     }
+
+    /* Estrutura Principal da Timeline Alternada */
+.timeline-alternating {
+    position: relative;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
+
+/* Linha Vertical Central */
+.timeline-alternating::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Container de cada Item (Esquerda / Direita) */
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.timeline-container.left {
+    left: 0;
+    text-align: left;
+}
+
+.timeline-container.right {
+    left: 50%;
+    text-align: left;
+}
+
+/* Círculo Marcador no Centro */
+.timeline-marker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -12px;
+    background-color: #ffffff;
+    border: 4px solid #f97316; /* Laranja da imagem */
+    top: 25px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.timeline-container.right .timeline-marker {
+    left: -12px;
+    right: auto;
+}
+
+/* Cartão Branco */
+.timeline-card {
+    padding: 1.5rem 2rem;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Seta Apontando para o Centro (Esquerda) */
+.timeline-container.left .timeline-card::after {
+    content: " ";
+    position: absolute;
+    top: 22px;
+    right: -10px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+/* Seta Apontando para o Centro (Direita) */
+.timeline-container.right .timeline-card::after {
+    content: " ";
+    position: absolute;
+    top: 22px;
+    left: -10px;
+    border-width: 10px 10px 10px 0;
+    border-style: solid;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+/* Tipografia dentro do Cartão */
+.timeline-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-card .period {
+    display: block;
+    font-size: 0.95rem;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.timeline-card p {
+    font-size: 0.9rem;
+    color: #222222;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Responsividade para Telas Menores */
+@media (max-width: 768px) {
+    .timeline-alternating::after {
+        left: 20px;
+    }
+    
+    .timeline-container {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    
+    .timeline-container.left, 
+    .timeline-container.right {
+        left: 0;
+    }
+    
+    .timeline-marker,
+    .timeline-container.right .timeline-marker {
+        left: 8px;
+        right: auto;
+    }
+
+    .timeline-container.left .timeline-card::after,
+    .timeline-container.right .timeline-card::after {
+        left: -10px;
+        right: auto;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #ffffff transparent transparent;
+    }
+}
 }
