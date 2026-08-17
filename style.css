@@ -124,14 +124,7 @@ header {
 .hero-btn:hover {
     background-color: #1d4ed8;
 }
-.profile-circle {
-    width: 150px;           /* Defina o tamanho desejado */
-    height: 150px;          /* Mantém a proporção 1:1 */
-    border-radius: 50%;     /* Transforma a caixa em um círculo perfeito */
-    object-fit: cover;      /* Corta os excessos sem distorcer a imagem */
-    border: 3px solid var(--primary-accent, #2563eb); /* Opcional: borda decorativa */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);       /* Opcional: sombra leve */
-}
+
 
 /* Main Content Container */
 .container {
