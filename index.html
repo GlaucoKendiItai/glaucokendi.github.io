@@ -1,35 +1,436 @@
-Glauco Kendi Itai | Portfolio
-  
+
+Conversa com o Gemini
+com base no site https://sites.google.com/view/glaucokendiitai/in%C3%ADcio crie um HTML para para ele
+
+Seu arquivo HTML foi criado com sucesso!
+
+Ícone do app HTML
+index
+ HTML 
+Aberto
+Destaques do HTML Criado:
+Design Moderno e Responsivo:
+
+Layout elegante com paleta de cores corporativa baseada em tons de azul escuro (#1e293b), cinza e detalhes em destaque (#2563eb).
+
+Adaptável a dispositivos móveis (smartphones e tablets).
+
+Estrutura de Navegação:
+
+Menu superior contendo todas as seções originais do site: Início, Cursos e Certificações, Histórico Profissional, Skills, Projetos e Contatos.
+
+Seção Principal (Hero):
+
+Apresentação com destaque para o nome Glauco Kendi Itai, cargo/atuação (Gerente de Projetos, Scrum Master, Product Owner) e botão direto para download do currículo.
+
+Conteúdo Completo da Biografia:
+
+Todo o texto sobre a trajetória de mais de 16 anos em TI, experiência acadêmica, empresas por onde passou (UnB, CTIS/SONDA, VERT, MONTREAL, GLOBAL HITSS, QINTESS, FIOTEC) e ministérios/órgãos atendidos (MDS, MAPA, MPA, MDA, DPU, MS, MJSP).
+
+Cards de Metodologias e Habilidades:
+
+Badges e visualizações interativas para Scrum, PMBOK, Kanban, SAFe, BPMN, Agile Coaching, entre outros.
+
+Rodapé Funcional:
+
+Links diretos com ícones para LinkedIn, Instagram e WhatsApp.
 
 
 
-  
-    Glauco Kendi Itai
-    
-      Início
-      Cursos & Certificações
-      Histórico Profissional
-      Skills
-      Projetos
-      Contatos
-    
-  
 
-  
-    Glauco Kendi Itai
-    Gerente de Projetos | Scrum Master | Product Owner
-    Meu Currículo (PDF)
-  
+O Gemini é uma IA e pode cometer erros.
 
-  
-    Sobre Mim
-    Profissional de TI com mais de 16 anos de experiência, atuando em diversos cenários do ambiente corporativo, com forte foco na Tecnologia da Informação como ativo estratégico para o negócio.
-    Possuo ampla experiência como Scrum Master e Product Owner (PO) em projetos ágeis, além de atuação como Gerente de Projetos, Coordenador e Líder de Projetos de Sistemas. Sólidos conhecimentos em Metodologias de Gerenciamento de Projetos (PMP/PMBOK) e Frameworks Ágeis (Scrum, SAFe, XP, Lean, Kanban).
-  
+Analisando
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glauco Kendi Itai - Portfolio Professional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #1e293b;
+            --primary-accent: #2563eb;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border-color: #e2e8f0;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
 
-  
-    Glauco Kendi Ribeiro Itai — Gerente de Projetos, Scrum Master e Product Owner
-    
-      LinkedIn |
-      Instagram |
-      WhatsApp
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary-accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .profile-img-placeholder {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: #3b82f6;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 1.5rem auto;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background-color: var(--primary-accent);
+            color: white;
+            padding: 0.75rem 1.75rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.2s;
+            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.4);
+        }
+
+        .hero-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 1000px;
+            margin: -3rem auto 4rem auto;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .bio-text p {
+            margin-bottom: 1.2rem;
+            color: var(--text-main);
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        .bio-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Experience Highlights Grid */
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .info-box {
+            background-color: #f1f5f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-accent);
+        }
+
+        .info-box h3 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        /* Tags / Badges */
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background-color: #e0e7ff;
+            color: #3730a3;
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: #94a3b8;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .footer-text {
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-text h3 {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .social-btn:hover {
+            background-color: var(--primary-accent);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .nav-menu {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .container {
+                margin-top: -1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-user-gear"></i> Glauco Kendi Itai
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active">Início</a></li>
+                    <li><a href="#" class="nav-link">Cursos e Certificações</a></li>
+                    <li><a href="#" class="nav-link">Histórico Profissional</a></li>
+                    <li><a href="#" class="nav-link">Skills</a></li>
+                    <li><a href="#" class="nav-link">Projetos</a></li>
+                    <li><a href="#" class="nav-link">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-img-placeholder">
+                GKI
+            </div>
+            <h1>Glauco Kendi Itai</h1>
+            <p>Gerente de Projetos | Scrum Master | Product Owner</p>
+            <a href="#" class="hero-btn"><i class="fa-solid fa-file-lines"></i> Meu Currículo</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="card">
+            <h2 class="section-title"><i class="fa-solid fa-id-card"></i> Sobre Mim</h2>
+            <div class="bio-text">
+                <p>Profissional de TI com mais de <strong>16 anos de experiência</strong>, atuando em diversos cenários do ambiente corporativo, com forte foco na Tecnologia da Informação como ativo estratégico para o negócio.</p>
+                
+                <p>Durante a formação acadêmica, atuei como líder e representante de turma, monitor acadêmico e profissional comprometido com o aprendizado contínuo e o desenvolvimento da minha carreira.</p>
+                
+                <p>Possuo ampla experiência como <strong>Scrum Master</strong> e <strong>Product Owner (PO)</strong> em projetos ágeis, além de atuação como Gerente de Projetos, Coordenador e Líder de Projetos de Sistemas. Detenho sólidos conhecimentos em Metodologias de Gerenciamento de Projetos (PMP/PMBOK) e Frameworks Ágeis, como Scrum, SAFe, XP, Lean, Kanban e Agile Coaching.</p>
+                
+                <p>Minha atuação como Scrum Master, Gestor de Projetos e Analista de Negócios e Processos é pautada na gestão ágil, no alinhamento estratégico com o negócio e no compromisso com a entrega de valor. Tenho experiência em modelagem e melhoria de processos (BPMN), análise de requisitos e otimização de fluxos organizacionais.</p>
+                
+                <p>Ao longo da minha trajetória, adquiri sólida experiência em análise e mapeamento de processos, gestão e coordenação de projetos e recursos, atuando como Analista de Requisitos e Negócios, Analista de Processos, Coordenador, Gestor de Projetos e Governança de TI, sempre aplicando as melhores práticas do PMBOK e métodos ágeis (Scrum).</p>
+                
+                <p>Atuei em organizações renomadas como <strong>UnB, CTIS/SONDA, VERT, MONTREAL, GLOBAL HITSS</strong> e, atualmente, na <strong>QINTESS</strong> e <strong>FIOTEC</strong>, exercendo a função de Scrum Master.</p>
+                
+                <p>Com forte presença no setor público, prestei serviços em diversos clientes de grande porte: <strong>MDS</strong> (Ministério do Desenvolvimento Social), <strong>MAPA</strong> (Ministério da Agricultura e Pecuária), <strong>MPA</strong> (Ministério da Pesca e Aquicultura), <strong>MDA</strong> (Ministério do Desenvolvimento Agrário), <strong>DPU</strong> (Defensoria Pública da União), <strong>MS</strong> (Ministério da Saúde) e <strong>MJSP</strong> (Ministério da Justiça e Segurança Pública).</p>
+            </div>
+        </div>
+
+        <!-- Highlight Grid -->
+        <div class="grid-cards">
+            <div class="info-box">
+                <h3><i class="fa-solid fa-diagram-project"></i> Metodologias & Frameworks</h3>
+                <p>Domínio em frameworks ágeis e tradicionais:</p>
+                <div class="tags-container">
+                    <span class="tag">Scrum</span>
+                    <span class="tag">Kanban</span>
+                    <span class="tag">PMBOK</span>
+                    <span class="tag">SAFe</span>
+                    <span class="tag">Lean</span>
+                    <span class="tag">XP</span>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h3><i class="fa-solid fa-list-check"></i> Gestão & Processos</h3>
+                <p>Especialista na otimização e condução de entregas:</p>
+                <div class="tags-container">
+                    <span class="tag">Agile Coaching</span>
+                    <span class="tag">BPMN</span>
+                    <span class="tag">Análise de Negócios</span>
+                    <span class="tag">Governança de TI</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-text">
+                <h3>Glauco Kendi Ribeiro Itai</h3>
+                <p>Gerente de Projetos, Scrum Master e Product Owner</p>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/glaucokenditai/" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.instagram.com/glaucokendi/?hl=pt-br" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="http://wa.me/+5543996429944" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+index.html
+Exibindo index.html.
