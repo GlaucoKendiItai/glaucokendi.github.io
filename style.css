@@ -475,3 +475,93 @@ footer {
     background-color: #166534;
     color: #ffffff;
 }
+/* Seção do Banner do Currículo */
+.hero-contact-info {
+    margin: 1rem 0 1.5rem 0;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+}
+
+.print-btn {
+    cursor: pointer;
+    border: none;
+    font-size: 0.95rem;
+}
+
+/* Lista de Vagas / Experiências */
+.jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.job-item {
+    background-color: #f8fafc;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.25rem;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.job-client {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.btn-toggle {
+    background: transparent;
+    border: 1px solid var(--primary-accent);
+    color: var(--primary-accent);
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-toggle:hover {
+    background-color: var(--primary-accent);
+    color: #ffffff;
+}
+
+.job-details {
+    display: none;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border-color);
+    color: var(--text-main);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Ajustes de Impressão para gerar PDF perfeito */
+@media print {
+    header, footer, .hero-btn, .btn-toggle {
+        display: none !important;
+    }
+    .hero {
+        background: none !important;
+        color: #000000 !important;
+        padding: 0 !important;
+        text-align: left !important;
+    }
+    .hero h1 { color: #000000 !important; }
+    .hero p, .hero-contact-info { color: #333333 !important; }
+    .container { margin-top: 1rem !important; }
+    .card { box-shadow: none !important; border: none !important; padding: 0 !important; margin-bottom: 1.5rem !important; }
+    .job-details { display: block !important; }
+}
