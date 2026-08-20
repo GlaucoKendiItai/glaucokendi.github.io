@@ -91,100 +91,32 @@
             </div>
         </div>
 
-        <!-- Seção de Mural de Recados / Chat Forum -->
+        <!-- Seção do Fórum Disqus -->
         <div class="card">
-            <h2 class="section-title"><i class="fa-solid fa-comments"></i> Mural de Recados</h2>
-            <p style="margin-bottom: 1.5rem; color: var(--text-light, #64748b);">Deixe uma mensagem, feedback ou dúvida técnica no formulário abaixo:</p>
+            <h2 class="section-title"><i class="fa-solid fa-comments"></i> Mural de Recados e Fórum</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-light, #64748b);">Deixe sua mensagem ou dúvida técnica abaixo. O fórum é aberto a todos os visitantes:</p>
 
-            <!-- Formulário para postar -->
-            <form id="commentForm" class="comment-form">
-                <div class="form-group">
-                    <label for="authorName">Seu Nome:</label>
-                    <input type="text" id="authorName" placeholder="Ex: Maria Silva" required>
-                </div>
-                <div class="form-group">
-                    <label for="messageText">Sua Mensagem / Recado:</label>
-                    <textarea id="messageText" rows="4" placeholder="Escreva seu recado aqui..." required></textarea>
-                </div>
-                <button type="submit" class="btn-send"><i class="fa-solid fa-paper-plane"></i> Publicar Recado</button>
-            </form>
+            <!-- Contêiner do Disqus -->
+            <div id="disqus_thread"></div>
 
-            <hr style="margin: 2rem 0; border: 0; border-top: 1px solid var(--border-color, #e2e8f0);">
-
-            <!-- Feed onde os recados aparecem -->
-            <h3>Recados Recentes</h3>
-            <div id="commentsFeed" class="comments-feed">
-                <!-- Recado Demonstrativo Fixado -->
-                <div class="comment-box">
-                    <div class="comment-header">
-                        <strong class="comment-author"><i class="fa-solid fa-user-circle"></i> Equipe de Suporte</strong>
-                        <span class="comment-date">Fixado</span>
-                    </div>
-                    <p class="comment-body">Seja bem-vindo ao mural! Espaço aberto para mensagens, perguntas e conexões profissionais.</p>
-                </div>
-            </div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = window.location.href;  
+                    this.page.identifier = 'contatos_glauco_kendi'; 
+                };
+                
+                (function() { 
+                    var d = document, s = d.createElement('script');
+                    // Substitua 'SEU_SHORTNAME' pelo seu identificador do Disqus
+                    s.src = 'https://SEU_SHORTNAME.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Por favor, ative o JavaScript para visualizar os <a href="https://disqus.com/?ref_noscript">comentários do Disqus.</a></noscript>
         </div>
 
     </main>
-
-    <!-- Script JS para simulação de Chat/Fórum via LocalStorage -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const commentForm = document.getElementById('commentForm');
-            const commentsFeed = document.getElementById('commentsFeed');
-
-            // Carregar mensagens salvas no navegador
-            const loadMessages = () => {
-                const savedMessages = JSON.parse(localStorage.getItem('muralRecados')) || [];
-                
-                // Limpa o feed mantendo apenas a mensagem padrão/fixada se desejar
-                const initialHTML = `
-                    <div class="comment-box">
-                        <div class="comment-header">
-                            <strong class="comment-author"><i class="fa-solid fa-user-circle"></i> Equipe de Suporte</strong>
-                            <span class="comment-date">Fixado</span>
-                        </div>
-                        <p class="comment-body">Seja bem-vindo ao mural! Espaço aberto para mensagens, perguntas e conexões profissionais.</p>
-                    </div>`;
-                
-                commentsFeed.innerHTML = initialHTML + savedMessages.map(msg => `
-                    <div class="comment-box">
-                        <div class="comment-header">
-                            <strong class="comment-author"><i class="fa-solid fa-circle-user"></i> ${msg.author}</strong>
-                            <span class="comment-date">${msg.date}</span>
-                        </div>
-                        <p class="comment-body">${msg.text}</p>
-                    </div>
-                `).join('');
-            };
-
-            // Publicar nova mensagem
-            commentForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                
-                const authorInput = document.getElementById('authorName');
-                const messageInput = document.getElementById('messageText');
-
-                const newMessage = {
-                    author: authorInput.value.trim(),
-                    text: messageInput.value.trim(),
-                    date: new Date().toLocaleDateString('pt-BR') + ' às ' + new Date().toLocaleTimeString('pt-BR', {hour: '2-digit', minute:'2-digit'})
-                };
-
-                const savedMessages = JSON.parse(localStorage.getItem('muralRecados')) || [];
-                savedMessages.unshift(newMessage); // Adiciona no início da lista
-
-                localStorage.setItem('muralRecados', JSON.stringify(savedMessages));
-
-                authorInput.value = '';
-                messageInput.value = '';
-
-                loadMessages();
-            });
-
-            loadMessages();
-        });
-    </script>
 
     <!-- Footer Section -->
     <footer>
