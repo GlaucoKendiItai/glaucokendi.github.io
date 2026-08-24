@@ -960,3 +960,145 @@ footer {
     .card { box-shadow: none !important; border: none !important; padding: 0 !important; margin-bottom: 1.5rem !important; }
     .job-details { display: block !important; }
 }
+/* Layout da Seção de Habilidades Consolidadas por Categorias */
+.skills-category-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-group {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.skills-group h3 {
+    font-size: 1.05rem;
+    color: #1e293b;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 6px;
+}
+
+.skills-group h3 i {
+    color: #2563eb;
+}
+
+.skills-group .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+/* Estilização dos blocos de habilidades em cada cargo */
+.job-skills {
+    margin-top: 15px;
+    padding-top: 12px;
+    border-top: 1px dashed #e0e0e0;
+}
+
+.job-skills strong {
+    display: block;
+    font-size: 0.9em;
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+.job-skills .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+/* Base padrão para Pills/Tags */
+.tag-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* 1. Agilidade - Azul */
+.tag-pill.tag-agile {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+}
+.tag-pill.tag-agile:hover {
+    background-color: #dbeafe;
+}
+
+/* 2. Governança e Negócios - Roxo */
+.tag-pill.tag-biz {
+    background-color: #f5f3ff;
+    color: #6d28d9;
+    border: 1px solid #ddd6fe;
+}
+.tag-pill.tag-biz:hover {
+    background-color: #ede9fe;
+}
+
+/* 3. Gestão de Projetos & BI - Laranja / Âmbar */
+.tag-pill.tag-pm {
+    background-color: #fff7ed;
+    color: #c2410c;
+    border: 1px solid #fed7aa;
+}
+.tag-pill.tag-pm:hover {
+    background-color: #ffedd5;
+}
+
+/* 4. Tecnologia & Dados - Verde Esmeralda */
+.tag-pill.tag-tech {
+    background-color: #f0fdf4;
+    color: #15803d;
+    border: 1px solid #bbf7d0;
+}
+.tag-pill.tag-tech:hover {
+    background-color: #dcfce7;
+}
+
+/* 5. Soft Skills & Liderança - Teal / Verde-Água */
+.tag-pill.tag-soft {
+    background-color: #f0fdfa;
+    color: #0f766e;
+    border: 1px solid #99f6e4;
+}
+.tag-pill.tag-soft:hover {
+    background-color: #ccfbf1;
+}
+
+/* Layout dos Grupos na Seção */
+.skills-category-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.skills-group {
+    background: #fafafa;
+    border: 1px solid #eaedd5;
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.skills-group h3 {
+    font-size: 0.98rem;
+    color: #334155;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skills-group .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
