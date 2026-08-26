@@ -114,7 +114,7 @@ const projectsData = {
         company: "MONTREAL",
         allocation: "Ministério do Desenvolvimento Social (MDS) - DGI-SAGI",
         roles: ["Analista de Requisitos", "Analista de Negócios", "Analista de Processos"],
-        skills: ["Engenharia Reversa", "Engenharia de Requisitos e Negócio", "Workflows", "Mapeamento de Processos (BPMN)", "Melhoria Contínua (PDCA)", "GIT"],
+        skills: ["Engenharia Reversa", "Engenharia de Requisitos e Negócio", "Workflows", "Mapeamento de Processos (BPMN)", "Melhoria Contínua (PDCA)", "GIT", "Moodle"],
         description: "Realizei o mapeamento de processos e a documentação de requisitos e regras de negócio por meio da engenharia reversa de um sistema legado. Superei o desafio do código não estruturado para mapear o fluxo atual, identificar falhas críticas e propor melhorias para evolução da aplicação.",
         deliveryPercentage: "100%",
         evaluation: "Projeto entregue com sucesso."
@@ -144,7 +144,7 @@ const projectsData = {
         company: "MONTREAL",
         allocation: "Ministério do Desenvolvimento Social (MDS) - DGI-SAGI",
         roles: ["Scrum Master", "Analista de Requisitos"],
-        skills: ["FrameWork Ágil (SCRUM)", "Kick-off", "Visão do Produto", "Roadmap", "Backlog", "GIT"],
+        skills: ["FrameWork Ágil (SCRUM)", "Kick-off", "Visão do Produto", "Roadmap", "Backlog", "GIT", "Moodle"],
         description: "Atuei como Scrum Master do projeto, realizando o KICK-OFF, criação da Visão do projeto, Roadmap, e backlog, realizando as cerimônias e fazendo o ciclo ágil rodar. Cerca de 4 profissionais alocados ao projeto.",
         deliveryPercentage: "40%",
         evaluation: "Projeto paralisado por determinação dos superiores."
