@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="indexscript.js" defer></script>
 </head>
 <body>
 
@@ -33,11 +34,11 @@
     <section class="hero">
         <div class="hero-content">
             <div class="profile-img-placeholder">
-                <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/imagem%20apresenta%C3%A7%C3%A3o.jpg?raw=true" alt="Apresentação" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+                <img id="hero-img" src="" alt="Apresentação" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
             </div>
-            <h1>Glauco Kendi Itai</h1>
-            <p>Gerente de Projetos | Scrum Master | Product Owner</p>
-            <a href="meu-cv.html" class="hero-btn"><i class="fa-solid fa-file-lines"></i> Meu Currículo</a>
+            <h1 id="hero-nome"></h1>
+            <p id="hero-titulo"></p>
+            <a id="hero-cv" href="#" class="hero-btn"><i class="fa-solid fa-file-lines"></i> Meu Currículo</a>
         </div>
     </section>
 
@@ -45,21 +46,7 @@
     <main class="container">
         <div class="card">
             <h2 class="section-title"><i class="fa-solid fa-id-card"></i> Sobre Mim</h2>
-            <div class="bio-text">
-                <p>Profissional de TI com mais de <strong>16 anos de experiência</strong>, atuando em diversos cenários do ambiente corporativo, com forte foco na Tecnologia da Informação como ativo estratégico para o negócio.</p>
-                
-                <p>Durante a formação acadêmica, atuei como líder e representante de turma, monitor acadêmico e profissional comprometido com o aprendizado contínuo e o desenvolvimento da minha carreira.</p>
-                
-                <p>Possuo ampla experiência como <strong>Scrum Master</strong> e <strong>Product Owner (PO)</strong> em projetos ágeis, além de atuação como <strong>Gerente de Projetos</strong>, <strong>Coordenador</strong> e <strong>Líder de Projetos de Sistemas</strong>. Detenho sólidos conhecimentos em Metodologias de Gerenciamento de Projetos (PMP/PMBOK) e Frameworks Ágeis, como Scrum, SAFe, XP, Lean, Kanban e Agile Coaching.</p>
-                
-                <p>Minha atuação como Scrum Master, Gestor de Projetos e Analista de Negócios e Processos é pautada na gestão ágil, no alinhamento estratégico com o negócio e no compromisso com a entrega de valor. Tenho experiência em modelagem e melhoria de processos (BPMN), análise de requisitos e otimização de fluxos organizacionais.</p>
-                
-                <p>Ao longo da minha trajetória, adquiri sólida experiência em análise e mapeamento de processos, gestão e coordenação de projetos e recursos, atuando como Analista de Requisitos e Negócios, Analista de Processos, Coordenador, Gestor de Projetos e Governança de TI, sempre aplicando as melhores práticas do PMBOK e métodos ágeis (Scrum).</p>
-                
-                <p>Atuei em organizações renomadas como <strong>UnB, CTIS/SONDA, VERT, MONTREAL, GLOBAL HITSS</strong> e, atualmente, na <strong>QINTESS</strong> e <strong>FIOTEC</strong>, exercendo a função de Scrum Master.</p>
-                
-                <p>Com forte presença no setor público, prestei serviços em diversos clientes de grande porte: <strong>MDS</strong> (Ministério do Desenvolvimento Social), <strong>MAPA</strong> (Ministério da Agricultura e Pecuária), <strong>MPA</strong> (Ministério da Pesca e Aquicultura), <strong>MDA</strong> (Ministério do Desenvolvimento Agrário), <strong>DPU</strong> (Defensoria Pública da União), <strong>MS</strong> (Ministério da Saúde) e <strong>MJSP</strong> (Ministério da Justiça e Segurança Pública).</p>
-            </div>
+            <div class="bio-text" id="sobre-mim-container"></div>
         </div>
 
         <!-- Highlight Grid -->
@@ -67,98 +54,51 @@
             <div class="info-box">
                 <h3><i class="fa-solid fa-diagram-project"></i> Metodologias & Frameworks</h3>
                 <p>Domínio em frameworks ágeis e tradicionais:</p>
-                <div class="tags-container">
-                    <span class="tag">Scrum (Framework Ágil Principal)</span>
-                    <span class="tag">Kanban & Lean Kanban</span>
-                    <span class="tag">PMP PMBOK (Gestão de Projetos Tradicional)</span>
-                    <span class="tag">SAFe (Scaled Agile Framework)</span>
-                    <span class="tag">Lean Six Sigma (Yellow/White Belt)</span>
-                    <span class="tag">XP (Extreme Programming)</span>
-                    <span class="tag">PDCA (Melhoria Contínua)</span>
-                    <span class="tag">UML (Linguagem de Modelagem Unificada)</span>
-                    <span class="tag">RUP | Waterfall (Método de desenvolvimento de software)</span>
-                </div>
+                <div class="tags-container" id="metodologias-container"></div>
             </div>
 
             <div class="info-box">
                 <h3><i class="fa-solid fa-list-check"></i> Gestão & Processos</h3>
                 <p>Especialista na otimização e condução de entregas:</p>
-                <div class="tags-container">
-                    <span class="tag">Agile Coaching & Transformação Ágil</span>
-                    <span class="tag">Lean Principles & Value Streams</span>
-                    <span class="tag">MS Visio (Workflows)</span>
-                    <span class="tag">Bizagi Modeler (Mapeamento BPMN | CBOK)</span>
-                    <span class="tag">Engenharia de Requisitos e Negócio (BABOK v3)</span>
-                    <span class="tag">COBIT & ITIL (Governança de TI)</span>
-                </div>
+                <div class="tags-container" id="gestao-container"></div>
             </div>
         </div>
 
-        <!-- Seção reorganizada em 2 colunas -->
+        <!-- Seção de 2 colunas -->
         <div class="grid-cards">
-            <!-- Coluna 1: Idiomas e Dados Complementares -->
+            <!-- Coluna 1 -->
             <div class="card">
                 <h2 class="section-title"><i class="fa-solid fa-language"></i> Idiomas</h2>
-                <p><strong>Português:</strong> Nativo</p>
-                <p><strong>Espanhol:</strong> Básico</p>
+                <div id="idiomas-container"></div>
                 
                 <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
                 
                 <h2 class="section-title"><i class="fa-solid fa-info-circle"></i> Dados Complementares</h2>
-                <ul class="cert-details">
-                    <li><i class="fa-solid fa-plane"></i> Disponibilidade para viajar</li>
-                    <li><i class="fa-solid fa-briefcase"></i> Consultoria Freelancer</li>
-                    <li><i class="fa-solid fa-house"></i> Disponibilidade para mudar de residência</li>
-                    <li><i class="fa-solid fa-id-card"></i> Carteira de Habilitação: A, B</li>
-                    <li><i class="fa-solid fa-car"></i> Tipo de Veículo: Carro particular</li>
-                </ul>
+                <ul class="cert-details" id="dados-comp-container"></ul>
             </div>
 
-            <!-- Coluna 2: Cargos Desejados e Objetivos -->
+            <!-- Coluna 2 -->
             <div class="card">
                 <h2 class="section-title"><i class="fa-solid fa-globe"></i> Cargos desejados</h2>
-                <div class="tags-container" style="margin-bottom: 20px;">
-                    <span class="tag">Gerente de Projetos</span>
-                    <span class="tag">Scrum Master</span>
-                    <span class="tag">Product Owner (PO)</span>
-                    <span class="tag">Analista de Requisitos e Negócios</span>
-                    <span class="tag">Analista de Processos</span>
-                    <span class="tag">Coordenador</span>
-                </div>
+                <div class="tags-container" style="margin-bottom: 20px;" id="cargos-container"></div>
                 
                 <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
                 
                 <h2 class="section-title"><i class="fa-solid fa-bullseye"></i> Objetivos</h2>
-                <ul class="cert-details">
-                    <li><i class="fa-solid fa-briefcase"></i> Jornada: Período Integral</li>
-                    <li><i class="fa-solid fa-money-bill-wave"></i> Pretensão Salarial CLT: R$ 9.500,00 a R$ 12.000,00 (Bruto) aberto à negociação</li>
-                    <li><i class="fa-solid fa-money-bill-wave"></i> Pretensão Salarial PJ: R$ 13.500,00 a R$ 17.000,00 (Bruto) aberto à negociação</li>
-                    <li><i class="fa-solid fa-file-contract"></i> Regime: CLT | PJ</li>
-                </ul>
+                <ul class="cert-details" id="objetivos-container"></ul>
             </div>
         </div>
-
     </main>
 
     <!-- Footer Section -->
     <footer>
         <div class="footer-content">
             <div class="footer-text">
-                <h3>Glauco Kendi Ribeiro Itai</h3>
-                <p>Gerente de Projetos, Scrum Master e Product Owner</p>
+                <h3 id="footer-nome"></h3>
+                <p id="footer-titulo"></p>
             </div>
             
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/glaucokenditai/" target="_blank" class="social-btn">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://www.instagram.com/glaucokendi/?hl=pt-br" target="_blank" class="social-btn">
-                    <i class="fa-brands fa-instagram"></i> Instagram
-                </a>
-                <a href="http://wa.me/+5543996429944" target="_blank" class="social-btn">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                </a>
-            </div>
+            <div class="social-links" id="social-container"></div>
         </div>
     </footer>
 
