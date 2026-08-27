@@ -23,6 +23,9 @@ function renderizarTimeline(experiencias) {
         const itemDiv = document.createElement('div');
         itemDiv.className = 'timeline-item';
 
+        // Validação do campo cliente: caso esteja em branco, nulo ou omitido, renderiza "Preencha"
+        const clienteTexto = (exp.cliente && exp.cliente.trim() !== '') ? exp.cliente : 'Preencha';
+
         const descricoesHTML = exp.descricoes
             ? exp.descricoes.map(desc => `<p class="job-description">${desc}</p>`).join('')
             : '';
@@ -38,7 +41,8 @@ function renderizarTimeline(experiencias) {
                     <h3 class="job-title">${exp.cargo}</h3>
                     <span class="job-period"><i class="fa-solid fa-calendar-days"></i> ${exp.periodo}</span>
                 </div>
-                <h4 class="company-name"><i class="fa-solid fa-building"></i> ${exp.empresa}</h4>
+                <h4 class="company-name"><i class="fa-solid fa-building"></i> <strong>Empresa:</strong> ${exp.empresa}</h4>
+                <h5 class="client-name" style="margin-bottom: 12px; color: #555;"><i class="fa-solid fa-handshake"></i> <strong>Cliente:</strong> ${clienteTexto}</h5>
                 ${descricoesHTML}
                 <div class="tags-container">
                     ${tagsHTML}
