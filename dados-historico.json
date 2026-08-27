@@ -4,10 +4,17 @@
       "cargo": "Scrum Master / Gerente de Projetos Ágeis",
       "periodo": "Set de 2025 – Até momento",
       "empresa": "QINTESS",
+      "cliente": "Minist. da Justiça e Segurança Pública (MJSP)",
       "descricoes": [
-        "Cliente Ministério da Justiça de Segurança Pública, atuando com Gerente de Projetos / Scrum Master, em projeto de BI, ETL, BIGDATA, DATALAKE e API, sito os mais importante o Projeto CÓRTEX, O projeto visa atender à necessidade de reestruturação tecnológica do sistema PIN (CÓRTEX), uma plataforma essencial para operações integradas e monitoramento de segurança pública.",
-        "Atuando também como Analista de Requisitos e Negócios, escrita de História de Usuário (HU) e regras de negócio (RN), bem como Apoio ao Product Owner (PO), priorizado Backlog",
-        "A migração para um ambiente mais moderno busca garantir maior eficiência, interoperabilidade e conformidade com as legislações vigentes, além de oferecer suporte a operações críticas de segurança pública."
+        "◼ Atuação:",
+        "Liderança de projetos complexos de tecnologia na área de inteligência e segurança pública, com foco em ecossistemas de Business Intelligence (BI), ETL, Big Data, Data Lake e desenvolvimento de APIs. Destaque para a atuação no Projeto CÓRTEX (reestruturação tecnológica do sistema PIN), viabilizando operações integradas, suporte a decisões críticas e monitoramento de segurança pública em nível nacional.A modernização do ambiente visou garantir alta eficiência, interoperabilidade, escalabilidade e conformidade com as legislações vigentes",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Planejamento de Pipeline & Riscos: Sequenciamento de entregas complexas de dados e APIs, mapeando dependências técnicas/operacionais e mitigando riscos de gargalos ou atrasos. Métricas de Impacto & Governança: Acompanhamento contínuo de KPIs de desempenho: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio. Alinhamento Estratégico: Conexão contínua da visão e do escopo do time de desenvolvimento aos objetivos macro e metas estratégicas (OKRs) do Ministério.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Engenharia de Requisitos & RN: Mapeamento de regras de negócio (RN) complexas, elaboração de especificações funcionais e escrita de Histórias de Usuário (HUs). Gestão de Backlog: Atuação analítica junto ao Product Owner (PO) na definição de prioridades, refinamento técnico e garantia de valor entregue em cada sprint.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Validação de Hipóteses: Aplicação de prototipagem, MVPs e testes A/B para validação técnica e de uso antes do rollout final. Centricidade no Usuário: Mapeamento das dores dos operadores de segurança pública e engajamento dos champions (usuários-chave) para viabilizar a adoção das soluções. Estratégia de Lançamento: Definição da proposta de valor dos novos módulos e planejamento de comunicação/distribuição para maximizar a utilização do sistema em operações em tempo real."
+        
       ],
       "tags": [
         { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
@@ -43,9 +50,17 @@
       "cargo": "Gerente de projetos / Scrum Master",
       "periodo": "Out de 2025 – 2026",
       "empresa": "FioTEC (RPA)",
+      "cliente": "Minist. da Saúde (MS)",
       "descricoes": [
-        "Cliente Ministério da Saúde, atuando com Gerente de Projetos / Scrum Master no projeto SisDJUD (Sistema das Demandas em Judicialização na Saúde), pertencente ao Departamento de Gestão das Demandas em Judicialização na Saúde – DJUD.",
-        "Atuando também como Analista de Requisitos e Negócios, escrita de História de Usuário e regras de negócio, bem como Apoio ao Product Owner (PO), priorizado Backlog"
+        "◼ Atuação:",
+        "Destaque para a atuação no SisDJUD (Sistema das Demandas em Judicialização na Saúde) junto ao Departamento de Gestão das Demandas em Judicialização na Saúde (DJUD), liderando entregas estratégicas e otimizando processos de software.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Planejamento e sequenciamento de pipeline com foco em mapeamento de dependências e mitigação de riscos de atraso/bloqueios. Monitoramento contínuo de métricas estratégicas: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio. Alinhamento do propósito e escopo do time de desenvolvimento com os objetivos estratégicos e OKRs da instituição.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Elicitação e escrita de Histórias de Usuário (HU), especificação de regras de negócio e documentação funcional. Suporte estratégico ao Product Owner na gestão, refinamento e priorização contínua do Backlog.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Validação de hipóteses por meio de prototipagem, MVPs e testes A/B. Mapeamento de dores do público-alvo, definição da proposta de valor e engajamento dos usuários promotores (champions). Planejamento e comunicação estratégica de lançamentos para garantir alta adesão e engajamento dos usuários. Incentivo a uma cultura de experimentação, aprendizado contínuo e trocas de feedback construtivas"
+        
       ],
       "tags": [
         { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
@@ -75,12 +90,17 @@
       "cargo": "Scrum Master / Gerente de Projetos Ágeis",
       "periodo": "Abril de 2021 – maio de 2025",
       "empresa": "GLOBAL HITSS",
+      "cliente": "Minist. do Desenvolvimento Social (MDS) / Minist. da Agricultura (MAPA) / Minist. da Pesca (MPA) / Defensoria Pública da União (DPU)",
       "descricoes": [
-        "Cliente Ministério da Cidadania após Ministério da Agricultura e Pecuária, Ministério da Pesca e Aquicultura atualmente na Defensoria Pública da União.",
-        "Atuando como Gerente de projetos / Scrum master.",
-        "Fui um dos responsáveis por implementar a prática agilista ao processo da Subsecretaria de tecnologia de Informação do ministério de Cidadania e posteriormente no Ministério da agricultura adaptando o framework scrum para a realidade desses dois ministérios o que chamamos de ECOPROD.",
-        "Tendo como responsabilidade promover, transformar e implantar os princípios e práticas de desenvolvimento de software ágil, incluindo o Manifesto Ágil e Scrum, Lean start-up, Lean Iception, Design thinking, Six Sigma dentre outros. Metodologias e técnicas de UX – User Experience: Design Visual, Arquitetura de Informação, Design de Interação, Usabilidade, Pesquisa com usuários, Análise de dados e Interfaces responsivas.",
-        "Integração contínua, Gestão de Sustentação e Realização de Lean Inception."
+        "◼ Atuação:",
+        "Liderança e transformação ágil na gestão de projetos públicos estratégicos. Fui um dos responsáveis por implementar e consolidar a prática ágil na Subsecretaria de Tecnologia da Informação do Ministério da Cidadania e, posteriormente, no Ministério da Agricultura e Pecuária (MAPA), adaptando o framework Scrum para a realidade do setor público por meio do Framework ECOPROD. Promovi a cultura de inovação unindo princípios do Manifesto Ágil, Lean Startup, Lean Inception, Design Thinking, Six Sigma e técnicas de UX (Design Visual, Arquitetura de Informação, Usabilidade e Pesquisa de Usuário).",
+        "Destaque para a atuação nos Projetos ECOPROD, SIPEAGRO, Pescados Profissional, Mapa de Bordo, SIGTV, SIGTR, SIPC, Ressarcimento do Auxilio Emergencial.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Planejamento de Pipeline: Sequenciamento estratégico de entregas, mapeamento de dependências técnicas/operacionais e mitigação proativa de riscos de bloqueio ou atrasos. Alinhamento Estratégico: Conexão entre o propósito do time e os objetivos macrogovernamentais e institucionais (OKRs e metas globais). Governança & Operações: Atuação direta em Integração Contínua e Gestão de Sustentação de sistemas essenciais.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Engenharia de Requisitos: Mapeamento contínuo de oportunidades e elaboração de Histórias de Usuário (HUs) e documentação focada em hipóteses de negócio. Facilitação de Inception: Condução de dinâmicas de Lean Inception para alinhamento entre stakeholders, definição de escopo, MVP e clareza da proposta de valor dos produtos.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Validação & Experimentação: Testes A/B, MVPs e prototipagem para coleta de dados reais e validação contínua de hipóteses com usuários. Comunicação & Adoção: Definição da estratégia de distribuição e comunicação de lançamentos para acelerar a adoção das soluções. Centralidade no Usuário: Mapeamento profundo de dores do público-alvo e engajamento ativo de champions (usuários promotores) para impulsionar o sucesso dos produtos."
       ],
       "tags": [
         { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
@@ -118,10 +138,17 @@
       "cargo": "Analista de Governança e Compliance",
       "periodo": "fevereiro de 2021 – abril de 2021",
       "empresa": "DATAINFO SOLUÇÕES EM TI",
+      "cliente": "Minist. do Desenvolvimento Social (MDS)",
       "descricoes": [
-        "Cliente Ministério da Cidadania, atuanco como Governança e Compliance, responsável por definir, manter e melhorar continuamente os modelos, padrões e procedimentos organizacionais pautados no framework ágil (Scrum). Verificar a conformidade dos produtos elaborados pelas equipes aos modelos e padrões.",
-        "Apoiar as equipes como Product Owner (PO) e Scrum Master (SM) na elaboração de seus produtos, sejam operacionais, negociais, de processos ou de projetos. Realizar a gestão, monitoramento e verificação da conformidade dos procedimentos pelas equipes.",
-        "Definição e implementação da metodologia ágil na condução e execução dos projetos de TI, realização de Lean Inception."
+        "◼ Atuação:",
+        "Liderança da frente de Governança, Compliance e Inovação em Processos no Ministério da Cidadania. Responsável pela definição, implantação e melhoria contínua dos modelos, padrões e procedimentos organizacionais baseados em metodologias ágeis (Scrum/Lean). Atuação estratégica na garantia da conformidade dos produtos entregues pelas equipes de TI, assegurando alinhamento aos padrões de qualidade, requisitos regulatórios e diretrizes organizacionais. Definição e implementação da metodologia ágil na condução e execução dos projetos de TI, realização de Lean Inception.",
+        "Destaque para a atuação no Projeto ECOPROD.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Definição Metodológica: Implantação e padronização do framework ágil (Scrum) para a condução e execução dos projetos de TI da instituição. Mentoria e Suporte Agilista: Atuação como facilitador e referência ágil para equipes multidisciplinares na elaboração de entregáveis operacionais, negociais, de processos e de projetos. Governança & Auditabilidade: Verificação e auditoria de conformidade dos produtos desenvolvidos frente aos padrões e modelos organizacionais estabelecidos.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Facilitação de Alinhamento (Lean Inception): Condução de workshops de Lean Inception para alinhamento de escopo, visão de produto e definição do MVP entre stakeholders e times técnicos. Capacitação em Papéis Ágeis: Suporte consultivo e prático a Product Owners (POs) e Scrum Masters (SMs) na estruturação de backlogs, modelagem de requisitos e fluxo de valor das entregas.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Melhoria Contínua de Processos: Evolução dos frameworks operacionais com foco na redução de desperdícios e aumento do padrão de qualidade das entregas. Padronização de Entregáveis: Criação de diretrizes de produto que conectam a conformidade regulatória às necessidades dos usuários e áreas de negócio do Ministério."
       ],
       "tags": [
         { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
@@ -146,12 +173,17 @@
       "cargo": "Analista de Requisitos e Negócios / Gerente de projetos",
       "periodo": "agosto de 2018 – novembro de 2020",
       "empresa": "MONTREAL",
+      "cliente": "Minist. do Desenvolvimento Social (MDS)",
       "descricoes": [
-        "Cliente Ministério da Cidadania Atuando principalmente como Gerente de projetos, Team Lider, Product Owner e Governança. Mapeamento de processos de negócios BPM e elaboração do Descritivo de Processo relacionado.",
-        "Atuando como Product Owner (PO) apoiando no entendimento do negócio, repasses de conhecimento, Especificação de histórias de Usuário, Protótipo de Tela (UX), Mensagens do Sistema, Regras de Negócio (Critérios de aceitação), pautados na metodologia Ágil (Scrum).",
-        "Criação de novos template para padronização de documentos de apoio. Apoio no acompanhamento, planejamento, controle de Projetos junto à Fábrica de Software, bem como à Área Gestora, apoiando com Gerente de projetos, sempre que necessário.",
-        "Mapeamento de processos BPM, atuação como Product Owner (PO) e Analista de Processos na escrita de User Stories, wireframes/UX e critérios de aceite. Análise de requisitos para BI (Power BI e QlikView) e gerenciamento de projetos com a fábrica de software.",
-        "Análise de requisitos de BI nos sistemas em desenvolvimento, e aplicação por meio das ferramentas PowerBI e QlikView."
+        "◼ Atuação:",
+        "Liderança multidisciplinar atuando como Gerente de Projetos, Team Leader, Product Owner e responsável pela Governança de Processos no Ministério da Cidadania. Destaque para a liderança no desenvolvimento do Sistema de Gestão de Capacitação (SGC), construído sobre a plataforma Moodle. Atuação abrangente no ciclo de vida de software, integrando o mapeamento de processos de negócios (BPM/BPMN) à gestão técnica junto à fábrica de software, priorizando decisões orientadas a dados e sinais reais do usuário.",
+        "Destaque para a atuação nos Projetos Criança Feliz, CECAD, Progredir, SGC..",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Liderança de Times & Fábrica de Software: Gestão e coordenação de equipes multidisciplinares e intermediação técnica com a fábrica de software para alinhamento de prazos, escopo e entregáveis. Mapeamento & Governança de Processos: Mapeamento de processos de negócios em notação BPMN e elaboração do Descritivo de Processos para padronização e otimização organizacional. Gestão de Projetos de BI: Mapeamento e análise de requisitos voltados para soluções de Inteligência de Negócios (Power BI e QlikView), garantindo suporte à tomada de decisão estratégica.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Atuação Completa como Product Owner: Imersão no entendimento do negócio, repasse de conhecimento aos times técnicos e especificação detalhada de regras de negócio sob o framework Scrum. Engenharia de Requisitos & UX: Escrita de Histórias de Usuário (User Stories), definição precisa de critérios de aceite, prototipagem de telas, elaboração de wireframes e mapeamento da experiência do usuário (UX).",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Discovery & Validação Continuada: Combinação da estruturação técnica de requisitos com discovery prático para validação contínua de hipóteses antes do desenvolvimento em escala. Experimentação com MVPs: Aplicação de protótipos interativos, páginas de teste (MVPs) e testes A/B para coletar dados de comportamento e adaptar as soluções às reais necessidades dos usuários."
       ],
       "tags": [
         { "nome": "PMP / PMBOK (Gestão de Projetos Tradicional)", "classe": "tag-agile" },
@@ -178,8 +210,16 @@
       "cargo": "Analista de Sistemas",
       "periodo": "julho de 2018 – agosto de 2018",
       "empresa": "VERT INTEGRADORA DE TI",
+      "cliente": "Defensoria Pública da União (DPU)",
       "descricoes": [
-        "Cliente DPU – Defensória Pública da União, atuando como Analista de Requisitos realizando Analise Desenvolvimento de soluções aplicadas ao Sharepoint. Analise de Requisitos e regras de negócio."
+        "◼ Atuação:",
+        "Focada no levantamento de requisitos, análise de negócios e modelagem de soluções corporativas aplicadas à plataforma Microsoft SharePoint. Atuação direta no entendimento das necessidades operacionais das áreas jurídicas e administrativas da DPU, transformando demandas complexas em arquiteturas de informação eficientes, automação de fluxos e portais colaborativos.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Alinhamento de Escopo: Facilitação no levantamento de necessidades junto aos stakeholders para definição clara de escopo e expectativas de entregas em ambiente SharePoint. Otimização de Processos: Estruturação de fluxos de trabalho e arquitetura de dados para promover produtividade e colaboração interna na instituição.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Elicitação e Mapeamento de Negócio: Levantamento minucioso de requisitos funcionais, não funcionais e detalhamento de Regras de Negócio (RN). Especificação Técnica & Funcional: Tradução de necessidades operacionais em especificações detalhadas de portais, listas, bibliotecas de documentos e automações em SharePoint. Apoio na Gestão de Demandas: Organização e priorização do fluxo de solicitações de novas funcionalidades ou melhorias nos sistemas existentes.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Prototipagem & Validação: Criação de protótipos de navegação e fluxos em SharePoint para validação prévia da usabilidade com os usuários finais. Qualidade: Acompanhamento de testes de homologação, garantia de usabilidade e suporte à estratégia de comunicação/treinamento para adoção das novas soluções pela equipe da DPU."
       ],
       "tags": [
         { "nome": "MS SharePoint (2010 / 2013)", "classe": "tag-pm" },
@@ -196,8 +236,16 @@
       "cargo": "Analista de Sistemas / Gerente de projetos",
       "periodo": "maio de 2012 – janeiro de 2018",
       "empresa": "CTIS TECNOLOGIA",
+      "cliente": "CTIS / SONDA",
       "descricoes": [
-        "Atuando principalmente como Gerente de Projetos, Governança de Ti, Gestão Projetos e demandas, Coordenador, Product Owner (PO) e Scrum Master, bem como trabalhar com ferramenta MS Project, e metodologias PMP, Análise de Sistemas, Analise e desenho de processos. Mapeamento de Processos BPM, criação de relatório BI na ferramenta Tableau."
+        "◼ Atuação:",
+        "Liderança estratégica e operacional em Gerência de Projetos, Governança de TI e Coordenação de Equipes multidisciplinares. Atuação híbrida combinando a previsibilidade e governança das metodologias tradicionais (PMBOK/PMP) à flexibilidade dos frameworks ágeis (Scrum). Responsável pela modelagem de processos de negócios (BPMN), análise de sistemas e estruturação de relatórios e dashboards de Inteligência de Negócios (Tableau) para suporte à tomada de decisão executiva.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Governança & Planejamento: Elaboração e acompanhamento de cronogramas complexos, alocação de recursos e gestão de riscos utilizando o MS Project sob as melhores práticas do PMBOK/PMP. Coordenação de Equipes & Agilidade: Liderança de times multidisciplinares atuando como Scrum Master, facilitando ritos ágeis, removendo impedimentos e promovendo a melhoria contínua das entregas. BI & Métricas de Gestão: Modelagem e desenvolvimento de dashboards no Tableau para monitoramento de KPIs de desempenho, evolução do projeto e valor entregue ao negócio.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Engenharia de Sistemas & BPMN: Mapeamento, otimização e documentação de processos de negócio em notação BPMN, articulando as necessidades de negócio com as arquiteturas de TI. Atuação de Product Owner: Levantamento, refinamento e priorização de requisitos funcionais e não funcionais, traduzindo visões estratégicas em backlogs estruturados.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Conexão Estratégica: Alinhamento contínuo entre os entregáveis técnicos de projetos e os objetivos globais da organização. Estratégia de Rollout: Planejamento e coordenação do lançamento de novas soluções e sistemas, garantindo a transição suave de processos operacionais e a rápida adoção pelos usuários."
       ],
       "tags": [
         { "nome": "PMP / PMBOK (Gestão de Projetos Tradicional)", "classe": "tag-agile" },
@@ -218,9 +266,19 @@
     {
       "cargo": "Analista de Sistemas/Análise de Requisitos",
       "periodo": "dezembro de 2008 – abril de 2012",
-      "empresa": "UNIVERSIDADE DE BRASÍLIA",
+      "empresa": "Universidade de Brasília (UnB)",
+      "cliente": "Universidade de Brasília (UnB)",
       "descricoes": [
-        "Análista de sistemas, Análista de requisitos, Desenvolvedor (Java Web e PHP), Atendimento aos professores, manutenção e suporte técnico de informática e redes e Desenvolvimento de Sistemas, Assistente Administrativo."
+        "◼ Atuação:",
+        "Atuação versátil e multidisciplinar cobrindo todo o ciclo de vida de tecnologia, desde o desenvolvimento de software (Java Web e PHP) e análise de requisitos até a governança de infraestrutura e suporte de TI. Experiência no atendimento direto a docentes/professores, gestão e manutenção de redes, suporte técnico especializado e sustentação de processos administrativos e operacionais.",
+        "Destaque para a atuação nos Projetos Catracas do RU, Totens da UnB.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Gestão de Demandas & Sustentação: Acompanhamento do fluxo de chamados e suporte contínuo, garantindo a disponibilidade e estabilidade dos sistemas e da rede de dados. Coordenação Operacional: Organização de prioridades operacionais entre equipes administrativas, corpo docente e times técnicos para alinhamento de prazos e entregáveis.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Engenharia de Requisitos: Levantamento de necessidades funcionais junto ao corpo docente e administrativo, traduzindo regras de negócio em especificações de sistemas. Modelagem & Arquitetura: Análise de sistemas focada na estruturação de dados e regras para desenvolvimento e evolução de plataformas web.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Desenvolvimento & Evolução de Soluções: Programação e implementação de funcionalidades em Java Web e PHP, focando em usabilidade e resolução de dores dos usuários.",
+        "Treinamento & Suporte ao Usuário: Condução de testes de aceitação, apoio na homologação e capacitação contínua de professores e colaboradores para garantir a plena adoção das ferramentas tecnológicas."
       ],
       "tags": [
         { "nome": "QA (Teste)", "classe": "tag-agile" },
@@ -239,8 +297,10 @@
     {
       "cargo": "Conselheiro Tutelar",
       "periodo": "abril de 2007 – janeiro de 2008",
-      "empresa": "PREFEITURA MUNICIPAL DE ARAPOTI",
+      "empresa": "Prefeitura Municipal de Arapoti",
+      "cliente": "Conselho Tutelar de Arapoti",
       "descricoes": [
+        "◼ Atuação:",
         "Zelar e fazer cumprir os direito e deveres da criança e do adolescente, noções avançadas do Estatuto da Criança e do Adolescente (ECA) e suas jurisprudências, Atividades Administrativas."
       ],
       "tags": [
@@ -251,8 +311,10 @@
     {
       "cargo": "Atendente Tele operador",
       "periodo": "novembro de 2005 – janeiro de 2007",
-      "empresa": "DIRETA CONSULTORIA, ASSESSORIA E SERV. DE INFORMÁTICA",
+      "empresa": "Direta Consultoria, Assessoria e Serv. de Informática",
+      "cliente": "Detran-PR",
       "descricoes": [
+        "◼ Atuação:",
         "Atendente no setor de veículos da 39ª CIRETRAN Arapoti – PR, vistoria de veículos leitura de chassi, manutenção de rede, Suporte Servidor, arquivo, emplacamento, Atividades Administrativas."
       ],
       "tags": [
@@ -264,8 +326,10 @@
     {
       "cargo": "Técnico de redes",
       "periodo": "maio de 2005 – outubro de 2005",
-      "empresa": "NET-CTI PROVEDOR DE INTERNET",
+      "empresa": "NET-CTI Provedor de internet",
+      "cliente": "Capal, Carteira de Clientes",
       "descricoes": [
+        "◼ Atuação:",
         "Instalação e Manutenção de Internet Via Rádio, Manutenção de rede, Assistência técnica de Microcomputadores, Instrutor de informática, Suporte Técnico, Atividades Administrativas."
       ],
       "tags": [
