@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- CSS Externo -->
     <link rel="stylesheet" href="style.css">
+    <!-- Script de Injeção de Dados -->
+    <script src="script-certificacoes.js" defer></script>
 </head>
 <body>
 
@@ -42,332 +44,29 @@
     <!-- Main Content Container -->
     <main class="container">
 
+        <!-- Formação Acadêmica -->
         <div class="card">
-    <h2 class="section-title"><i class="fa-solid fa-award"></i> Formação Acadêmica </h2>
-    <!-- Grid de Formação Acadêmica -->
-    <div class="certs-grid">
-        
-        <!-- Card Formação Acadêmica 1 -->
-        <div class="cert-card">
-            <!-- 
-            <div class="cert-img-container">
-                <img src="https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/ALVORADA.png" alt="Certificado de Graduação" class="cert-img">
-            </div> -->
-            <div class="cert-info">
-                <h3 class="cert-title">BACHAREL EM SISTEMAS DE INFORMAÇÃO, INFORMATION TECHNOLOGY</h3>
-                <ul class="cert-details">
-                    <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Faculdade Alvorada de Informática Processamento de Dados</li>
-                    <li><i class="fa-solid fa-graduation-cap"></i> <strong>Formação:</strong> Graduação Bacharelado </li>
-                    <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2011</li>
-                </ul>
-                <a href="https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/ALVORADA.png" download target="_blank" class="btn-download">
-                    <i class="fa-solid fa-download"></i> Baixar Certificado
-                </a>
-            </div> 
-        </div>   
-
-        <!-- Card Formação Acadêmica 2 -->
-        <div class="cert-card">
-            <!-- 
-            <div class="cert-img-container">
-                <img src="https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/UNIEURO.png" alt="Certificado de Graduação" class="cert-img">
-            </div> -->
-            <div class="cert-info">
-                <h3 class="cert-title">BACHAREL EM SISTEMAS DE INFORMAÇÃO</h3>
-                <ul class="cert-details">
-                    <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> INSTITUTO EURO-AMERICANO DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA S.A</li>
-                    <li><i class="fa-solid fa-graduation-cap"></i> <strong>Formação:</strong> Graduação Bacharelado </li>
-                    <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2026</li>
-                </ul>
-                <a href="https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/UNIEURO.png" download target="_blank" class="btn-download">
-                    <i class="fa-solid fa-download"></i> Baixar Certificado
-                </a>
-            </div> 
+            <h2 class="section-title"><i class="fa-solid fa-award"></i> Formação Acadêmica</h2>
+            <div class="certs-grid" id="formacao-academica-grid"></div>
         </div>
 
-        <!-- Card Formação Acadêmica 3 -->
-        <div class="cert-card">
-            <!-- 
-            <div class="cert-img-container">
-                <img src="https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/MODELO%20CERTIFICADO.png" alt="Certificado de Graduação" class="cert-img">
-            </div> -->
-            <div class="cert-info">
-                <h3 class="cert-title">GERENCIAMENTO ÁGIL DE PROJETOS</h3>
-                <ul class="cert-details">
-                    <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Instituto Central De Minas Ead</li>
-                    <li><i class="fa-solid fa-graduation-cap"></i> <strong>Formação:</strong> Pós-Graduação </li>
-                    <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> Em andamento</li>
-                </ul>
-                 <!--  <a href="https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/MODELO%20CERTIFICADO.png" download target="_blank" class="btn-download">
-                    <i class="fa-solid fa-download"></i> Baixar Certificado
-                </a>-->
-            </div> 
-        </div>
-
-    </div>
-</div>
-
-
+        <!-- Certificações & Formações -->
         <div class="card">
             <h2 class="section-title"><i class="fa-solid fa-award"></i> Certificações & Formações</h2>
-
-            <!-- Grid de Certificados -->
-            <div class="certs-grid">
-
-                <!-- Card Certificado 1 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <!-- Substitua 'caminho/para/imagem.jpg' pela imagem do seu certificado -->
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/SFPC.png?raw=true" alt="Certificado Scrum Foundation Professional Certificate" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Scrum Foundation Professional Certificate</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> CertiProf</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Avaliação de Proficiência </li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2020</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 2 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/KEPC.png?raw=true" alt="Certificado Kanban Essentials Professional Certificate" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Kanban Essentials Professional Certificate</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> CertiProf</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Avaliação de Proficiência </li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2021</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 3 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/WBLSS.png?raw=true" alt="Certificado White Belt em Lean Six-Sigma" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">White Belt em Lean Six-Sigma</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Edit</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Avaliação de Proficiência </li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2020</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Card Certificado 4 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <!-- Substitua 'caminho/para/imagem.jpg' pela imagem do seu certificado -->
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/WBLSS-Claro.png?raw=true" alt="Certificado White Belt em Lean Six-Sigma" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">White Belt em Lean Six-Sigma</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Claro - CapacitaTI</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2022</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 5 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/YBLSS-Claro.png?raw=true" alt="Certificado Yellow Belt em Lean Six-Sigma" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Yellow Belt em Lean Six-Sigma</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Claro - CapacitaTI</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2022</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 6 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/ANR.jpg?raw=true" alt="Certificado Analise de Negocio" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Analise de Negócios</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Udemy</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2019</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 7 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <!-- Substitua 'caminho/para/imagem.jpg' pela imagem do seu certificado -->
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/LEAN.png?raw=true" alt="Certificado Lean" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Lean</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Edit</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 202o</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 8 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/PMP-CAPM.png?raw=true" alt="Certificado PMP-CAPM" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">PMP-CAPM</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Instituto Douglas Franco</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2019</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 9 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/BPMN.png?raw=true" alt="Certificado BPMN" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Mapeamento e Modelagem de Processos (BPMN)</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Gnof</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2013</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Card Certificado 10 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/SHAREPOINT-2013.png?raw=true" alt="Certificado Configuring and Administering Microsoft SharePoint 2013" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Configuring and Administering Microsoft SharePoint 2013</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Digitall do Brasil</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2015</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 11 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/SHAREPOINT-2010.png?raw=true" alt="Certificado Configuring and Administering Microsoft SharePoint 2010" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Configuring and Administering Microsoft SharePoint 2010</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Hepta</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2013</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 12 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/MODELO%20CERTIFICADO.png?raw=true" alt="Certificado Gerenciamento de TI " class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Gerenciamento de TI </h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Instituto Bradesco</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2008</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 13 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/GP1.png?raw=true" alt="Certificado Gestão de Projetos 01" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Gestão de Projetos 01</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Instituto Bradesco</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2008</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 14 -->
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/HTML.png?raw=true" alt="Certificado Linguagem HTML" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Linguagem HTML</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Diogo Mariano</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong>Até 40 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2019</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Card Certificado 15
-                <div class="cert-card">
-                    <div class="cert-img-container">
-                        <img src="https://via.placeholder.com/600x400?text=Certificado+BPMN" alt="Certificado BPMN" class="cert-img">
-                    </div>
-                    <div class="cert-info">
-                        <h3 class="cert-title">Mapeamento e Modelagem de Processos (BPMN)</h3>
-                        <ul class="cert-details">
-                            <li><i class="fa-solid fa-building"></i> <strong>Instituição:</strong> Escola Superior de Governança</li>
-                            <li><i class="fa-solid fa-clock"></i> <strong>Duração:</strong> 60 horas</li>
-                            <li><i class="fa-solid fa-calendar-check"></i> <strong>Ano de Conclusão:</strong> 2023</li>
-                        </ul>
-                    </div>
-                </div> 
-                
-                -->
-
-
-            </div>
+            <div class="certs-grid" id="certificacoes-grid"></div>
         </div>
+
     </main>
 
     <!-- Footer Section -->
     <footer>
         <div class="footer-content">
             <div class="footer-text">
-                <h3>Glauco Kendi Ribeiro Itai</h3>
-                <p>Gerente de Projetos, Scrum Master e Product Owner</p>
+                <h3 id="footer-nome"></h3>
+                <p id="footer-titulo"></p>
             </div>
             
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/glaucokenditai/" target="_blank" class="social-btn">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="https://www.instagram.com/glaucokendi/?hl=pt-br" target="_blank" class="social-btn">
-                    <i class="fa-brands fa-instagram"></i> Instagram
-                </a>
-                <a href="http://wa.me/+5543996429944" target="_blank" class="social-btn">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                </a>
-            </div>
+            <div class="social-links" id="footer-social-container"></div>
         </div>
     </footer>
 
