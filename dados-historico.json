@@ -1,0 +1,299 @@
+{
+  "experiencias": [
+    {
+      "cargo": "Scrum Master / Gerente de Projetos Ágeis",
+      "periodo": "Set de 2025 – Até momento",
+      "empresa": "QINTESS",
+      "descricoes": [
+        "Cliente Ministério da Justiça de Segurança Pública, atuando com Gerente de Projetos / Scrum Master, em projeto de BI, ETL, BIGDATA, DATALAKE e API, sito os mais importante o Projeto CÓRTEX, O projeto visa atender à necessidade de reestruturação tecnológica do sistema PIN (CÓRTEX), uma plataforma essencial para operações integradas e monitoramento de segurança pública.",
+        "Atuando também como Analista de Requisitos e Negócios, escrita de História de Usuário (HU) e regras de negócio (RN), bem como Apoio ao Product Owner (PO), priorizado Backlog",
+        "A migração para um ambiente mais moderno busca garantir maior eficiência, interoperabilidade e conformidade com as legislações vigentes, além de oferecer suporte a operações críticas de segurança pública."
+      ],
+      "tags": [
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
+        { "nome": "DoD (Definition of Done)", "classe": "tag-agile" },
+        { "nome": "privacidade de dados (LGPD)", "classe": "tag-agile" },
+        { "nome": "Redmine", "classe": "tag-biz" },
+        { "nome": "Termo de Abertura do Projeto (TAP)", "classe": "tag-biz" },
+        { "nome": "kickoff de Projeto", "classe": "tag-biz" },
+        { "nome": "ETL & Integração de APIs", "classe": "tag-pm" },
+        { "nome": "IA (Inteligência artificial)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Big Data & Data Lake (Visão e Requisitos de Negócio)", "classe": "tag-pm" },
+        { "nome": "Gestão de Backlog", "classe": "tag-tech" },
+        { "nome": "Gestão de Escopo", "classe": "tag-tech" },
+        { "nome": "Gestão de Mudanças", "classe": "tag-tech" },
+        { "nome": "Gestão de Pessoas", "classe": "tag-tech" },
+        { "nome": "Gestão de Prazos", "classe": "tag-tech" },
+        { "nome": "Gestão de Riscos", "classe": "tag-tech" },
+        { "nome": "Gestão Portfólio de Projetos", "classe": "tag-tech" },
+        { "nome": "Histórias de Usuário (HU)", "classe": "tag-tech" },
+        { "nome": "Liderança", "classe": "tag-soft" },
+        { "nome": "Liderança de Equipes Multidisciplinares", "classe": "tag-soft" },
+        { "nome": "Liderança Ágil Multi-projetos", "classe": "tag-soft" },
+        { "nome": "Adaptabilidade", "classe": "tag-soft" },
+        { "nome": "Facilitação", "classe": "tag-soft" },
+        { "nome": "Gestão de Mudanças Organizacionais", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" },
+        { "nome": "Ética", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Gerente de projetos / Scrum Master",
+      "periodo": "Out de 2025 – 2026",
+      "empresa": "FioTEC (RPA)",
+      "descricoes": [
+        "Cliente Ministério da Saúde, atuando com Gerente de Projetos / Scrum Master no projeto SisDJUD (Sistema das Demandas em Judicialização na Saúde), pertencente ao Departamento de Gestão das Demandas em Judicialização na Saúde – DJUD.",
+        "Atuando também como Analista de Requisitos e Negócios, escrita de História de Usuário e regras de negócio, bem como Apoio ao Product Owner (PO), priorizado Backlog"
+      ],
+      "tags": [
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "SAFe (Scaled Agile Framework)", "classe": "tag-agile" },
+        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
+        { "nome": "DoD (Definition of Done)", "classe": "tag-agile" },
+        { "nome": "RaodMap", "classe": "tag-agile" },
+        { "nome": "PDCA (Melhoria Contínua)", "classe": "tag-agile" },
+        { "nome": "Jira & Jira Align", "classe": "tag-biz" },
+        { "nome": "GIT (Controle de Versão)", "classe": "tag-pm" },
+        { "nome": "IA (Inteligência artificial)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Gestão de Backlog", "classe": "tag-tech" },
+        { "nome": "Gestão de Contrato", "classe": "tag-tech" },
+        { "nome": "Gestão de Escopo", "classe": "tag-tech" },
+        { "nome": "Gestão de Mudanças", "classe": "tag-tech" },
+        { "nome": "Gestão de Pessoas", "classe": "tag-tech" },
+        { "nome": "Gestão de Prazos", "classe": "tag-tech" },
+        { "nome": "Gestão de Riscos", "classe": "tag-tech" },
+        { "nome": "Liderança", "classe": "tag-soft" },
+        { "nome": "Negociação", "classe": "tag-soft" },
+        { "nome": "Comunicação", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Scrum Master / Gerente de Projetos Ágeis",
+      "periodo": "Abril de 2021 – maio de 2025",
+      "empresa": "GLOBAL HITSS",
+      "descricoes": [
+        "Cliente Ministério da Cidadania após Ministério da Agricultura e Pecuária, Ministério da Pesca e Aquicultura atualmente na Defensoria Pública da União.",
+        "Atuando como Gerente de projetos / Scrum master.",
+        "Fui um dos responsáveis por implementar a prática agilista ao processo da Subsecretaria de tecnologia de Informação do ministério de Cidadania e posteriormente no Ministério da agricultura adaptando o framework scrum para a realidade desses dois ministérios o que chamamos de ECOPROD.",
+        "Tendo como responsabilidade promover, transformar e implantar os princípios e práticas de desenvolvimento de software ágil, incluindo o Manifesto Ágil e Scrum, Lean start-up, Lean Iception, Design thinking, Six Sigma dentre outros. Metodologias e técnicas de UX – User Experience: Design Visual, Arquitetura de Informação, Design de Interação, Usabilidade, Pesquisa com usuários, Análise de dados e Interfaces responsivas.",
+        "Integração contínua, Gestão de Sustentação e Realização de Lean Inception."
+      ],
+      "tags": [
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
+        { "nome": "Lean Inception (Facilitação e Execução)", "classe": "tag-agile" },
+        { "nome": "Redmine", "classe": "tag-biz" },
+        { "nome": "Bizagi Modeler (Mapeamento BPMN)", "classe": "tag-biz" },
+        { "nome": "Postgre (Consultas e Análise de Dados)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (Google Suite)", "classe": "tag-pm" },
+        { "nome": "metodologia (ECOPROD)", "classe": "tag-pm" },
+        { "nome": "Gestão de Backlog", "classe": "tag-tech" },
+        { "nome": "Gestão de Contrato", "classe": "tag-tech" },
+        { "nome": "Gestão de Escopo", "classe": "tag-tech" },
+        { "nome": "Gestão de Mudanças", "classe": "tag-tech" },
+        { "nome": "Gestão de Pessoas", "classe": "tag-tech" },
+        { "nome": "Gestão de Prazos", "classe": "tag-tech" },
+        { "nome": "Gestão de Riscos", "classe": "tag-tech" },
+        { "nome": "Histórias de Usuário (HU)", "classe": "tag-tech" },
+        { "nome": "Engenharia de Requisitos e Negócio (BABOK v3)", "classe": "tag-tech" },
+        { "nome": "UX, Wireframing & Prototipagem", "classe": "tag-tech" },
+        { "nome": "Design Thinking", "classe": "tag-tech" },
+        { "nome": "Liderança", "classe": "tag-soft" },
+        { "nome": "Liderança de Equipes Multidisciplinares", "classe": "tag-soft" },
+        { "nome": "Liderança Ágil Multi-projetos", "classe": "tag-soft" },
+        { "nome": "Negociação", "classe": "tag-soft" },
+        { "nome": "Comunicação", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" },
+        { "nome": "Adaptabilidade", "classe": "tag-soft" },
+        { "nome": "Facilitação", "classe": "tag-soft" },
+        { "nome": "Gestão de Mudanças Organizacionais", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Analista de Governança e Compliance",
+      "periodo": "fevereiro de 2021 – abril de 2021",
+      "empresa": "DATAINFO SOLUÇÕES EM TI",
+      "descricoes": [
+        "Cliente Ministério da Cidadania, atuanco como Governança e Compliance, responsável por definir, manter e melhorar continuamente os modelos, padrões e procedimentos organizacionais pautados no framework ágil (Scrum). Verificar a conformidade dos produtos elaborados pelas equipes aos modelos e padrões.",
+        "Apoiar as equipes como Product Owner (PO) e Scrum Master (SM) na elaboração de seus produtos, sejam operacionais, negociais, de processos ou de projetos. Realizar a gestão, monitoramento e verificação da conformidade dos procedimentos pelas equipes.",
+        "Definição e implementação da metodologia ágil na condução e execução dos projetos de TI, realização de Lean Inception."
+      ],
+      "tags": [
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
+        { "nome": "QA (Teste)", "classe": "tag-agile" },
+        { "nome": "SAFe (Scaled Agile Framework)", "classe": "tag-agile" },
+        { "nome": "XP (Extreme Programming)", "classe": "tag-agile" },
+        { "nome": "COBIT & ITIL (Governança de TI)", "classe": "tag-agile" },
+        { "nome": "Compliance", "classe": "tag-agile" },
+        { "nome": "Taiga", "classe": "tag-biz" },
+        { "nome": "Bizagi Modeler (Mapeamento BPMN)", "classe": "tag-biz" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Gestão Portfólio de Projetos", "classe": "tag-tech" },
+        { "nome": "Design Thinking", "classe": "tag-tech" },
+        { "nome": "Six Sigma (Yellow/White Belt)", "classe": "tag-tech" },
+        { "nome": "Comunicação", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" },
+        { "nome": "Adaptabilidade", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Analista de Requisitos e Negócios / Gerente de projetos",
+      "periodo": "agosto de 2018 – novembro de 2020",
+      "empresa": "MONTREAL",
+      "descricoes": [
+        "Cliente Ministério da Cidadania Atuando principalmente como Gerente de projetos, Team Lider, Product Owner e Governança. Mapeamento de processos de negócios BPM e elaboração do Descritivo de Processo relacionado.",
+        "Atuando como Product Owner (PO) apoiando no entendimento do negócio, repasses de conhecimento, Especificação de histórias de Usuário, Protótipo de Tela (UX), Mensagens do Sistema, Regras de Negócio (Critérios de aceitação), pautados na metodologia Ágil (Scrum).",
+        "Criação de novos template para padronização de documentos de apoio. Apoio no acompanhamento, planejamento, controle de Projetos junto à Fábrica de Software, bem como à Área Gestora, apoiando com Gerente de projetos, sempre que necessário.",
+        "Mapeamento de processos BPM, atuação como Product Owner (PO) e Analista de Processos na escrita de User Stories, wireframes/UX e critérios de aceite. Análise de requisitos para BI (Power BI e QlikView) e gerenciamento de projetos com a fábrica de software.",
+        "Análise de requisitos de BI nos sistemas em desenvolvimento, e aplicação por meio das ferramentas PowerBI e QlikView."
+      ],
+      "tags": [
+        { "nome": "PMP / PMBOK (Gestão de Projetos Tradicional)", "classe": "tag-agile" },
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "Lean Principles & Value Streams", "classe": "tag-agile" },
+        { "nome": "Taiga", "classe": "tag-biz" },
+        { "nome": "MS Project", "classe": "tag-biz" },
+        { "nome": "Bizagi Modeler (Mapeamento BPMN)", "classe": "tag-biz" },
+        { "nome": "Visão do Projeto", "classe": "tag-biz" },
+        { "nome": "Gestão de Fábrica de Software", "classe": "tag-biz" },
+        { "nome": "Termo de Abertura do Projeto (TAP)", "classe": "tag-biz" },
+        { "nome": "Sistemas Operacionais (Windows)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "UC (casos de Uso)", "classe": "tag-tech" },
+        { "nome": "Engenharia de Requisitos e Negócio (BABOK v3)", "classe": "tag-tech" },
+        { "nome": "UX, Wireframing & Prototipagem", "classe": "tag-tech" },
+        { "nome": "Liderança", "classe": "tag-soft" },
+        { "nome": "Liderança de Equipes Multidisciplinares", "classe": "tag-soft" },
+        { "nome": "Liderança Ágil Multi-projetos", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Analista de Sistemas",
+      "periodo": "julho de 2018 – agosto de 2018",
+      "empresa": "VERT INTEGRADORA DE TI",
+      "descricoes": [
+        "Cliente DPU – Defensória Pública da União, atuando como Analista de Requisitos realizando Analise Desenvolvimento de soluções aplicadas ao Sharepoint. Analise de Requisitos e regras de negócio."
+      ],
+      "tags": [
+        { "nome": "MS SharePoint (2010 / 2013)", "classe": "tag-pm" },
+        { "nome": "Desenvolvimento Web (Java Script, HTML, CSS)", "classe": "tag-pm" },
+        { "nome": "Engenharia de Requisitos e Negócio (BABOK v3)", "classe": "tag-tech" },
+        { "nome": "UC (casos de Uso)", "classe": "tag-tech" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" },
+        { "nome": "Ética", "classe": "tag-soft" },
+        { "nome": "Negociação", "classe": "tag-soft" },
+        { "nome": "Comunicação", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Analista de Sistemas / Gerente de projetos",
+      "periodo": "maio de 2012 – janeiro de 2018",
+      "empresa": "CTIS TECNOLOGIA",
+      "descricoes": [
+        "Atuando principalmente como Gerente de Projetos, Governança de Ti, Gestão Projetos e demandas, Coordenador, Product Owner (PO) e Scrum Master, bem como trabalhar com ferramenta MS Project, e metodologias PMP, Análise de Sistemas, Analise e desenho de processos. Mapeamento de Processos BPM, criação de relatório BI na ferramenta Tableau."
+      ],
+      "tags": [
+        { "nome": "PMP / PMBOK (Gestão de Projetos Tradicional)", "classe": "tag-agile" },
+        { "nome": "XP (Extreme Programming)", "classe": "tag-agile" },
+        { "nome": "COBIT & ITIL (Governança de TI)", "classe": "tag-agile" },
+        { "nome": "QA (Teste)", "classe": "tag-agile" },
+        { "nome": "Bizagi Modeler (Mapeamento BPMN)", "classe": "tag-biz" },
+        { "nome": "Tableau", "classe": "tag-biz" },
+        { "nome": "MS Project", "classe": "tag-biz" },
+        { "nome": "MS SharePoint (2010 / 2013)", "classe": "tag-pm" },
+        { "nome": "Sistemas Operacionais (Windows)", "classe": "tag-pm" },
+        { "nome": "Sistemas ERP (SAP)", "classe": "tag-pm" },
+        { "nome": "Sistemas ERP (TOTVS)", "classe": "tag-pm" },
+        { "nome": "Coordenação", "classe": "tag-tech" },
+        { "nome": "Engenharia de Requisitos e Negócio (BABOK v3)", "classe": "tag-tech" }
+      ]
+    },
+    {
+      "cargo": "Analista de Sistemas/Análise de Requisitos",
+      "periodo": "dezembro de 2008 – abril de 2012",
+      "empresa": "UNIVERSIDADE DE BRASÍLIA",
+      "descricoes": [
+        "Análista de sistemas, Análista de requisitos, Desenvolvedor (Java Web e PHP), Atendimento aos professores, manutenção e suporte técnico de informática e redes e Desenvolvimento de Sistemas, Assistente Administrativo."
+      ],
+      "tags": [
+        { "nome": "QA (Teste)", "classe": "tag-agile" },
+        { "nome": "SQL (Consultas e Análise de Dados)", "classe": "tag-pm" },
+        { "nome": "Sistemas Operacionais (Linux)", "classe": "tag-pm" },
+        { "nome": "Sistemas Operacionais (Windows)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Suporte Técnico (Hardware, Software & redes)", "classe": "tag-pm" },
+        { "nome": "UC (casos de Uso)", "classe": "tag-tech" },
+        { "nome": "Engenharia de Requisitos e Negócio (BABOK v3)", "classe": "tag-tech" },
+        { "nome": "UX, Wireframing & Prototipagem", "classe": "tag-tech" },
+        { "nome": "Negociação", "classe": "tag-soft" },
+        { "nome": "Atendimento ao Usuário", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Conselheiro Tutelar",
+      "periodo": "abril de 2007 – janeiro de 2008",
+      "empresa": "PREFEITURA MUNICIPAL DE ARAPOTI",
+      "descricoes": [
+        "Zelar e fazer cumprir os direito e deveres da criança e do adolescente, noções avançadas do Estatuto da Criança e do Adolescente (ECA) e suas jurisprudências, Atividades Administrativas."
+      ],
+      "tags": [
+        { "nome": "Atividades Administrativas", "classe": "tag" },
+        { "nome": "Atendimento ao Usuário", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Atendente Tele operador",
+      "periodo": "novembro de 2005 – janeiro de 2007",
+      "empresa": "DIRETA CONSULTORIA, ASSESSORIA E SERV. DE INFORMÁTICA",
+      "descricoes": [
+        "Atendente no setor de veículos da 39ª CIRETRAN Arapoti – PR, vistoria de veículos leitura de chassi, manutenção de rede, Suporte Servidor, arquivo, emplacamento, Atividades Administrativas."
+      ],
+      "tags": [
+        { "nome": "Atividades Administrativas", "classe": "tag" },
+        { "nome": "Suporte Técnico (Hardware, Software & redes)", "classe": "tag-pm" },
+        { "nome": "Atendimento ao Usuário", "classe": "tag-soft" }
+      ]
+    },
+    {
+      "cargo": "Técnico de redes",
+      "periodo": "maio de 2005 – outubro de 2005",
+      "empresa": "NET-CTI PROVEDOR DE INTERNET",
+      "descricoes": [
+        "Instalação e Manutenção de Internet Via Rádio, Manutenção de rede, Assistência técnica de Microcomputadores, Instrutor de informática, Suporte Técnico, Atividades Administrativas."
+      ],
+      "tags": [
+        { "nome": "Atividades Administrativas", "classe": "tag" },
+        { "nome": "Suporte Técnico (Hardware, Software & redes)", "classe": "tag-pm" },
+        { "nome": "Atendimento ao Usuário", "classe": "tag-soft" }
+      ]
+    }
+  ],
+  "rodape": {
+    "nome": "Glauco Kendi Ribeiro Itai",
+    "subtitulo": "Gerente de Projetos, Scrum Master e Product Owner",
+    "redesSociais": [
+      {
+        "plataforma": "LinkedIn",
+        "url": "https://www.linkedin.com/in/glaucokenditai/",
+        "icone": "fa-brands fa-linkedin"
+      },
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/glaucokendi/?hl=pt-br",
+        "icone": "fa-brands fa-instagram"
+      },
+      {
+        "plataforma": "WhatsApp",
+        "url": "http://wa.me/+5543996429944",
+        "icone": "fa-brands fa-whatsapp"
+      }
+    ]
+  }
+}
