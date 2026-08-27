@@ -1,0 +1,142 @@
+{
+  "categorias": [
+    {
+      "titulo": "Metodologias & Frameworks Ágeis",
+      "icone": "fa-solid fa-lightbulb",
+      "skills": [
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "Kanban & Lean Kanban", "classe": "tag-agile" },
+        { "nome": "Lean Inception (Facilitação e Execução)", "classe": "tag-agile" },
+        { "nome": "SAFe (Scaled Agile Framework)", "classe": "tag-agile" },
+        { "nome": "XP (Extreme Programming)", "classe": "tag-agile" },
+        { "nome": "PMP / PMBOK (Gestão de Projetos Tradicional)", "classe": "tag-agile" },
+        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
+        { "nome": "Lean Principles & Value Streams", "classe": "tag-agile" },
+        { "nome": "WIP (Work in Progress)", "classe": "tag-agile" },
+        { "nome": "DoD (Definition of Done)", "classe": "tag-agile" },
+        { "nome": "COBIT & ITIL (Governança de TI)", "classe": "tag-agile" },
+        { "nome": "Compliance", "classe": "tag-agile" },
+        { "nome": "Value Stream Mapping", "classe": "tag-agile" },
+        { "nome": "QA (Teste)", "classe": "tag-agile" },
+        { "nome": "PDCA (Melhoria Contínua)", "classe": "tag-agile" },
+        { "nome": "Visão do Produto", "classe": "tag-agile" },
+        { "nome": "RaodMap", "classe": "tag-agile" },
+        { "nome": "Privacidade de dados (LGPD)", "classe": "tag-agile" }
+      ]
+    },
+    {
+      "titulo": "Gestão de Projetos, Processos & BI",
+      "icone": "fa-solid fa-diagram-project",
+      "skills": [
+        { "nome": "Jira & Jira Align", "classe": "tag-biz" },
+        { "nome": "Redmine", "classe": "tag-biz" },
+        { "nome": "Bizagi Modeler (Mapeamento BPMN)", "classe": "tag-biz" },
+        { "nome": "Power BI (Dashboards e Relatórios)", "classe": "tag-biz" },
+        { "nome": "Tableau", "classe": "tag-biz" },
+        { "nome": "QlikView", "classe": "tag-biz" },
+        { "nome": "MS Project & PWA", "classe": "tag-biz" },
+        { "nome": "MS Visio (Workflows)", "classe": "tag-biz" },
+        { "nome": "Taiga", "classe": "tag-biz" },
+        { "nome": "Trello", "classe": "tag-biz" },
+        { "nome": "Visão do Projeto", "classe": "tag-biz" },
+        { "nome": "Gestão de Fábrica de Software", "classe": "tag-biz" },
+        { "nome": "Termo de Abertura do Projeto (TAP)", "classe": "tag-biz" },
+        { "nome": "kickoff de Projeto", "classe": "tag-biz" }
+      ]
+    },
+    {
+      "titulo": "Tecnologias, Dados & Ferramentas",
+      "icone": "fa-solid fa-wrench",
+      "skills": [
+        { "nome": "GIT (Controle de Versão)", "classe": "tag-pm" },
+        { "nome": "SQL (Consultas e Análise de Dados)", "classe": "tag-pm" },
+        { "nome": "PostgreSQL (Consultas e Análise de Dados)", "classe": "tag-pm" },
+        { "nome": "Xmind (Mapa Mental)", "classe": "tag-pm" },
+        { "nome": "Desenvolvimento low-code (Power Apps)", "classe": "tag-pm" },
+        { "nome": "Desenvolvimento low-code (AppSheet)", "classe": "tag-pm" },
+        { "nome": "IA (Inteligência artificial)", "classe": "tag-pm" },
+        { "nome": "Big Data & Data Lake (Visão e Requisitos de Negócio)", "classe": "tag-pm" },
+        { "nome": "ETL & Integração de APIs", "classe": "tag-pm" },
+        { "nome": "MS SharePoint (2010 / 2013)", "classe": "tag-pm" },
+        { "nome": "Desenvolvimento Web (Java Web, HTML, CSS)", "classe": "tag-pm" },
+        { "nome": "Desenvolvimento Web (PHP, HTML, CSS)", "classe": "tag-pm" },
+        { "nome": "Desenvolvimento Web (Java Script, HTML, CSS)", "classe": "tag-pm" },
+        { "nome": "Sistemas Operacionais (Linux)", "classe": "tag-pm" },
+        { "nome": "Sistemas Operacionais (Windows)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (Google Suite)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (LibreOffice)", "classe": "tag-pm" },
+        { "nome": "Sistemas ERP (SAP)", "classe": "tag-pm" },
+        { "nome": "Sistemas ERP (TOTVS)", "classe": "tag-pm" },
+        { "nome": "metodologia (ECOPROD)", "classe": "tag-pm" },
+        { "nome": "Suporte Técnico (Hardware, Software & redes)", "classe": "tag-pm" },
+        { "nome": "Moodle", "classe": "tag-pm" },
+        { "nome": "Joomla", "classe": "tag-pm" }
+      ]
+    },
+    {
+      "titulo": "Negócios & Liderança",
+      "icone": "fa-solid fa-microchip",
+      "skills": [
+        { "nome": "Gestão de Backlog", "classe": "tag-tech" },
+        { "nome": "Gestão de Contrato", "classe": "tag-tech" },
+        { "nome": "Gestão de Escopo", "classe": "tag-tech" },
+        { "nome": "Gestão de Mudanças", "classe": "tag-tech" },
+        { "nome": "Gestão de Pessoas", "classe": "tag-tech" },
+        { "nome": "Gestão de Prazos", "classe": "tag-tech" },
+        { "nome": "Gestão de Riscos", "classe": "tag-tech" },
+        { "nome": "Gestão Portfólio de Projetos", "classe": "tag-tech" },
+        { "nome": "UC (casos de Uso)", "classe": "tag-tech" },
+        { "nome": "Coordenação", "classe": "tag-tech" },
+        { "nome": "Histórias de Usuário (HU)", "classe": "tag-tech" },
+        { "nome": "Engenharia de Requisitos e Negócio (BABOK v3)", "classe": "tag-tech" },
+        { "nome": "UX, Wireframing & Prototipagem", "classe": "tag-tech" },
+        { "nome": "Design Thinking", "classe": "tag-tech" },
+        { "nome": "Six Sigma (Yellow/White Belt)", "classe": "tag-tech" },
+        { "nome": "Gestão Técnica", "classe": "tag-tech" }
+      ]
+    },
+    {
+      "titulo": "Soft Skills & Desenvolvimento Continuo & Valores",
+      "icone": "fa-solid fa-user-check",
+      "skills": [
+        { "nome": "Liderança", "classe": "tag-soft" },
+        { "nome": "Liderança de Equipes Multidisciplinares", "classe": "tag-soft" },
+        { "nome": "Liderança Ágil Multi-projetos", "classe": "tag-soft" },
+        { "nome": "Negociação", "classe": "tag-soft" },
+        { "nome": "Comunicação", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" },
+        { "nome": "Adaptabilidade", "classe": "tag-soft" },
+        { "nome": "Facilitação", "classe": "tag-soft" },
+        { "nome": "Gestão de Mudanças Organizacionais", "classe": "tag-soft" },
+        { "nome": "Mentalidade de Crescimento", "classe": "tag-soft" },
+        { "nome": "Ética", "classe": "tag-soft" },
+        { "nome": "Desenvolvimento de Carreira", "classe": "tag-soft" },
+        { "nome": "Atendimento ao Usuário", "classe": "tag-soft" },
+        { "nome": "Comunicativo", "classe": "tag-soft" },
+        { "nome": "Atendimento ao Cliente", "classe": "tag-soft" }
+      ]
+    }
+  ],
+  "rodape": {
+    "nome": "Glauco Kendi Ribeiro Itai",
+    "subtitulo": "Gerente de Projetos, Scrum Master e Product Owner",
+    "redesSociais": [
+      {
+        "plataforma": "LinkedIn",
+        "url": "https://www.linkedin.com/in/glaucokenditai/",
+        "icone": "fa-brands fa-linkedin"
+      },
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/glaucokendi/?hl=pt-br",
+        "icone": "fa-brands fa-instagram"
+      },
+      {
+        "plataforma": "WhatsApp",
+        "url": "http://wa.me/+5543996429944",
+        "icone": "fa-brands fa-whatsapp"
+      }
+    ]
+  }
+}
