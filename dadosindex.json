@@ -1,0 +1,66 @@
+{
+  "perfil": {
+    "nome": "Glauco Kendi Itai",
+    "titulo": "Gerente de Projetos | Scrum Master | Product Owner",
+    "foto": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/imagem%20apresenta%C3%A7%C3%A3o.jpg?raw=true",
+    "linkCv": "meu-cv.html",
+    "sobreMim": [
+      "Profissional de TI com mais de 16 anos de experiência, atuando em diversos cenários do ambiente corporativo, com forte foco na Tecnologia da Informação como ativo estratégico para o negócio.",
+      "Durante a formação acadêmica, atuei como líder e representante de turma, monitor acadêmico e profissional comprometido com o aprendizado contínuo e o desenvolvimento da minha carreira.",
+      "Possuo ampla experiência como Scrum Master e Product Owner (PO) em projetos ágeis, além de atuação como Gerente de Projetos, Coordenador e Líder de Projetos de Sistemas. Detenho sólidos conhecimentos em Metodologias de Gerenciamento de Projetos (PMP/PMBOK) e Frameworks Ágeis, como Scrum, SAFe, XP, Lean, Kanban e Agile Coaching.",
+      "Minha atuação como Scrum Master, Gestor de Projetos e Analista de Negócios e Processos é pautada na gestão ágil, no alinhamento estratégico com o negócio e no compromisso com a entrega de valor. Tenho experiência em modelagem e melhoria de processos (BPMN), análise de requisitos e otimização de fluxos organizacionais.",
+      "Ao longo da minha trajetória, adquiri sólida experiência em análise e mapeamento de processos, gestão e coordenação de projetos e recursos, atuando como Analista de Requisitos e Negócios, Analista de Processos, Coordenador, Gestor de Projetos e Governança de TI, sempre aplicando as melhores práticas do PMBOK e métodos ágeis (Scrum).",
+      "Atuei em organizações renomadas como UnB, CTIS/SONDA, VERT, MONTREAL, GLOBAL HITSS e, atualmente, na QINTESS e FIOTEC, exercendo a função de Scrum Master.",
+      "Com forte presença no setor público, prestei serviços em diversos clientes de grande porte: MDS (Ministério do Desenvolvimento Social), MAPA (Ministério da Agricultura e Pecuária), MPA (Ministério da Pesca e Aquicultura), MDA (Ministério do Desenvolvimento Agrário), DPU (Defensoria Pública da União), MS (Ministério da Saúde) e MJSP (Ministério da Justiça e Segurança Pública)."
+    ]
+  },
+  "metodologias": [
+    "Scrum (Framework Ágil Principal)",
+    "Kanban & Lean Kanban",
+    "PMP PMBOK (Gestão de Projetos Tradicional)",
+    "SAFe (Scaled Agile Framework)",
+    "Lean Six Sigma (Yellow/White Belt)",
+    "XP (Extreme Programming)",
+    "PDCA (Melhoria Contínua)",
+    "UML (Linguagem de Modelagem Unificada)",
+    "RUP | Waterfall (Método de desenvolvimento de software)"
+  ],
+  "gestaoEProcessos": [
+    "Agile Coaching & Transformação Ágil",
+    "Lean Principles & Value Streams",
+    "MS Visio (Workflows)",
+    "Bizagi Modeler (Mapeamento BPMN | CBOK)",
+    "Engenharia de Requisitos e Negócio (BABOK v3)",
+    "COBIT & ITIL (Governança de TI)"
+  ],
+  "idiomas": [
+    { "idioma": "Português", "nivel": "Nativo" },
+    { "idioma": "Espanhol", "nivel": "Básico" }
+  ],
+  "dadosComplementares": [
+    { "icone": "fa-plane", "texto": "Disponibilidade para viajar" },
+    { "icone": "fa-briefcase", "texto": "Consultoria Freelancer" },
+    { "icone": "fa-house", "texto": "Disponibilidade para mudar de residência" },
+    { "icone": "fa-id-card", "texto": "Carteira de Habilitação: A, B" },
+    { "icone": "fa-car", "texto": "Tipo de Veículo: Carro particular" }
+  ],
+  "cargosDesejados": [
+    "Gerente de Projetos",
+    "Scrum Master",
+    "Product Owner (PO)",
+    "Analista de Requisitos e Negócios",
+    "Analista de Processos",
+    "Coordenador de Projetos"
+  ],
+  "objetivos": [
+    { "icone": "fa-briefcase", "texto": "Jornada: Período Integral" },
+    { "icone": "fa-money-bill-wave", "texto": "Pretensão Salarial CLT: R$ 9.500,00 a R$ 12.000,00 (Bruto) aberto à negociação" },
+    { "icone": "fa-money-bill-wave", "texto": "Pretensão Salarial PJ: R$ 13.500,00 a R$ 17.000,00 (Bruto) aberto à negociação" },
+    { "icone": "fa-file-contract", "texto": "Regime: CLT | PJ" }
+  ],
+  "redesSociais": [
+    { "plataforma": "LinkedIn", "url": "https://www.linkedin.com/in/glaucokenditai/", "icone": "fa-brands fa-linkedin" },
+    { "plataforma": "Instagram", "url": "https://www.instagram.com/glaucokendi/?hl=pt-br", "icone": "fa-brands fa-instagram" },
+    { "plataforma": "WhatsApp", "url": "http://wa.me/+5543996429944", "icone": "fa-brands fa-whatsapp" }
+  ]
+}
