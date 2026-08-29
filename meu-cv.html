@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Glauco Kendi Ribeiro Itai</title>
-    <!-- Google Fonts & Font Awesome -->
+    <title>Currículo - Glauco Kendi Itai</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- CSS Externo -->
     <link rel="stylesheet" href="style.css">
+    <script src="cvscript.js" defer></script>
 </head>
 <body>
 
@@ -21,10 +20,9 @@
             <nav>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link">Início</a></li>
-                    <li><a href="cursos-e-certificacoes.html" class="nav-link">Cursos e Certificações</a></li>
+                    <li><a href="cursos-e-certificacoes.html" class="nav-link">Cursos & Certificações</a></li>
                     <li><a href="historico-profissional.html" class="nav-link">Histórico Profissional</a></li>
                     <li><a href="skills.html" class="nav-link">Skills</a></li>
-                    <li><a href="curriculo.html" class="nav-link active">Currículo</a></li>
                     <li><a href="projetos.html" class="nav-link">Projetos</a></li>
                     <li><a href="contatos.html" class="nav-link">Contatos</a></li>
                 </ul>
@@ -32,552 +30,109 @@
         </div>
     </header>
 
-    <!-- Page Banner -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Currículo Profissional</h1>
-            <p>Scrum Master | Gerente de Projetos | Governança e TI</p>
-            <div class="hero-contact-info">
-                <span><i class="fa-solid fa-location-dot"></i> Brasília/DF</span> | 
-                <span><i class="fa-solid fa-envelope"></i> glaucok.itai@gmail.com</span> | 
-                <span><i class="fa-solid fa-phone"></i> (61) 99804-3900 / (43) 99642-9944</span>
-            </div>
-            <button class="hero-btn print-btn" onclick="imprimirCurriculo()">
-                <i class="fa-solid fa-print"></i> Imprimir / Salvar PDF
-            </button>
-        </div>
-    </section>
+    <!-- Barra de Ações (Apenas em tela) -->
+    <div class="cv-actions-bar">
+        <a href="index.html" class="btn-toggle"><i class="fa-solid fa-arrow-left"></i> Voltar</a>
+        <button onclick="window.print()" class="hero-btn print-btn"><i class="fa-solid fa-print"></i> Imprimir / Salvar PDF</button>
+    </div>
 
-    <!-- Main Content Container -->
-    <main class="container">
-
-        <!-- Resumo Profissional -->
-        <div class="card">
-            <h2 class="section-title"><i class="fa-solid fa-user-tie"></i> Resumo Profissional</h2>
-            <div class="bio-text">
-                <p>Profissional de TI com mais de <strong>16 anos de experiência</strong>, atuando em diversos cenários do ambiente corporativo, com forte foco na Tecnologia da Informação como ativo estratégico para o negócio.</p>
+    <!-- Conteúdo do Currículo -->
+    <main class="container cv-container">
+        <article class="card cv-card">
+            
+            <!-- Seção do Perfil -->
+            <header class="cv-header">
+                <h1 id="cv-nome"></h1>
+                <p class="cv-cargo" id="cv-cargo"></p>
                 
-                <p>Durante a formação acadêmica, atuei como líder e representante de turma, monitor acadêmico e profissional comprometido com o aprendizado contínuo e o desenvolvimento da minha carreira.</p>
-                
-                <p>Possuo ampla experiência como <strong>Scrum Master</strong> e <strong>Product Owner (PO)</strong> em projetos ágeis, além de atuação como <strong>Gerente de Projetos</strong>, <strong>Coordenador</strong> e <strong>Líder de Projetos de Sistemas</strong>. Detenho sólidos conhecimentos em Metodologias de Gerenciamento de Projetos (PMP/PMBOK) e Frameworks Ágeis, como Scrum, SAFe, XP, Lean, Kanban e Agile Coaching.</p>
-                
-                <p>Minha atuação como Scrum Master, Gestor de Projetos e Analista de Negócios e Processos é pautada na gestão ágil, no alinhamento estratégico com o negócio e no compromisso com a entrega de valor. Tenho experiência em modelagem e melhoria de processos (BPMN), análise de requisitos e otimização de fluxos organizacionais.</p>
-                
-                <p>Ao longo da minha trajetória, adquiri sólida experiência em análise e mapeamento de processos, gestão e coordenação de projetos e recursos, atuando como Analista de Requisitos e Negócios, Analista de Processos, Coordenador, Gestor de Projetos e Governança de TI, sempre aplicando as melhores práticas do PMBOK e métodos ágeis (Scrum).</p>
-                
-                <p>Atuei em organizações renomadas como <strong>UnB, CTIS/SONDA, VERT, MONTREAL, GLOBAL HITSS</strong> e, atualmente, na <strong>QINTESS</strong> e <strong>FIOTEC</strong>, exercendo a função de Scrum Master.</p>
-                
-                <p>Com forte presença no setor público, prestei serviços em diversos clientes de grande porte: <strong>MDS</strong> (Ministério do Desenvolvimento Social), <strong>MAPA</strong> (Ministério da Agricultura e Pecuária), <strong>MPA</strong> (Ministério da Pesca e Aquicultura), <strong>MDA</strong> (Ministério do Desenvolvimento Agrário), <strong>DPU</strong> (Defensoria Pública da União), <strong>MS</strong> (Ministério da Saúde) e <strong>MJSP</strong> (Ministério da Justiça e Segurança Pública).</p>
-            </div>
-        </div>
+                <div class="cv-contact-grid">
+                    <span><i class="fa-solid fa-location-dot"></i> <span id="cv-localidade"></span></span>
+                    <span><i class="fa-solid fa-envelope"></i> <a id="cv-email" href=""></a></span>
+                    <span><i class="fa-solid fa-phone"></i> <span id="cv-telefone"></span></span>
+                </div>
+            </header>
 
-        <!-- Experiência Profissional -->
-        <div class="card">
-            <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Experiência Profissional</h2>
-            <div class="jobs-list">
+            <hr class="cv-divider">
 
-                <!-- Cargo 1 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Gerente de Projetos / Scrum Master — QINTESS</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> Ministério da Justiça e Segurança Pública</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 09/2025 – Atual</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Liderança de projetos complexos de tecnologia na área de inteligência e segurança pública, com foco em ecossistemas de Business Intelligence (BI), ETL, Big Data, Data Lake e desenvolvimento de APIs.</p>
-                        <p>Destaque para a atuação no <strong>Projeto CÓRTEX</strong> (reestruturação tecnológica do sistema PIN), viabilizando operações integradas, suporte a decisões críticas e monitoramento de segurança pública em nível nacional.</p>
-                        <p>A modernização do ambiente visou garantir alta eficiência, interoperabilidade, escalabilidade e conformidade com as legislações vigentes.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Planejamento de Pipeline & Riscos: Sequenciamento de entregas complexas de dados e APIs, mapeando dependências técnicas/operacionais e mitigando riscos de gargalos ou atrasos.</p>
-                        <p>Métricas de Impacto & Governança: Acompanhamento contínuo de KPIs de desempenho: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio.</p> 
-                        <p>Alinhamento Estratégico: Conexão contínua da visão e do escopo do time de desenvolvimento aos objetivos macro e metas estratégicas (OKRs) do Ministério.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Engenharia de Requisitos & RN: Mapeamento de regras de negócio (RN) complexas, elaboração de especificações funcionais e escrita de Histórias de Usuário (HUs).</p>
-                        <p>Gestão de Backlog: Atuação analítica junto ao Product Owner (PO) na definição de prioridades, refinamento técnico e garantia de valor entregue em cada sprint.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Validação de Hipóteses: Aplicação de prototipagem, MVPs e testes A/B para validação técnica e de uso antes do rollout final.</p>
-                        <p>Centricidade no Usuário: Mapeamento das dores dos operadores de segurança pública e engajamento dos champions (usuários chave) para viabilizar a adoção das soluções. </p>
-                        <p>Estratégia de Lançamento: Definição da proposta de valor dos novos módulos e planejamento de comunicação/distribuição para maximizar a utilização do sistema em operações em tempo real.</p>
-                                                
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">Scrum (Framework Ágil Principal)</span>
-                                <span class="tag-pill tag-agile">Agile Coaching & Transformação Ágil</span>
-                                <span class="tag-pill tag-agile">DoD (Definition of Done)</span>
-                                <span class="tag-pill tag-agile">privacidade de dados (LGPD)</span>
-                                <span class="tag-pill tag-biz">Redmine</span>
-                                <span class="tag-pill tag-biz">Termo de Abertura do Projeto (TAP)</span>
-                                <span class="tag-pill tag-biz">kickoff de Projeto</span>
-                                <span class="tag-pill tag-pm">ETL & Integração de APIs</span>
-                                <span class="tag-pill tag-pm">IA (Inteligência artificial)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (MS Office)</span>
-                                <span class="tag-pill tag-pm">Big Data & Data Lake (Visão e Requisitos de Negócio)</span>
-                                <span class="tag-pill tag-tech">Gestão de Backlog</span>
-                                <span class="tag-pill tag-tech">Gestão de Escopo</span>
-                                <span class="tag-pill tag-tech">Gestão de Mudanças</span>
-                                <span class="tag-pill tag-tech">Gestão de Pessoas</span>
-                                <span class="tag-pill tag-tech">Gestão de Prazos</span>
-                                <span class="tag-pill tag-tech">Gestão de Riscos</span>
-                                <span class="tag-pill tag-tech">Gestão Portfólio de Projetos</span>
-                                <span class="tag-pill tag-tech">Histórias de Usuário (HU) </span>
-                                <span class="tag-pill tag-soft">Liderança</span>
-                                <span class="tag-pill tag-soft">Liderança de Equipes Multidisciplinares</span>
-                                <span class="tag-pill tag-soft">Liderança Ágil Multi-projetos</span>
-                                <span class="tag-pill tag-soft">Adaptabilidade</span>
-                                <span class="tag-pill tag-soft">Facilitação</span>
-                                <span class="tag-pill tag-soft">Gestão de Mudanças Organizacionais</span>
-                                <span class="tag-pill tag-soft">Profissionalismo</span>
-                                <span class="tag-pill tag-soft">Ética</span>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Seção Resumo Profissional -->
+            <section class="cv-section">
+                <h2 class="section-title"><i class="fa-solid fa-user-tie"></i> Resumo Profissional</h2>
+                <div class="bio-text" id="cv-sobre-mim"></div>
+            </section>
+
+            <hr class="cv-divider">
+
+            <!-- Seção Histórico Profissional -->
+            <section class="cv-section">
+                <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Histórico Profissional</h2>
+                <div class="timeline" id="cv-historico-container"></div>
+            </section>
+
+            <hr class="cv-divider">
+
+            <!-- Seção Formação Acadêmica (2 colunas) -->
+            <section class="cv-section">
+                <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
+                <div class="academic-grid" id="cv-formacao-container"></div>
+            </section>
+
+            <hr class="cv-divider">
+
+            <!-- Seção Cursos e Certificações (3 colunas) -->
+            <section class="cv-section">
+                <h2 class="section-title"><i class="fa-solid fa-certificate"></i> Cursos e Certificações</h2>
+                <div class="courses-grid" id="cv-certificacoes-container"></div>
+            </section>
+
+            <hr class="cv-divider">
+
+            <!-- Grid em Duas Colunas: Lado Esquerdo e Lado Direito -->
+            <div class="cv-two-columns-grid">
+    
+                <!-- Coluna 1: Idiomas & Dados Complementares -->
+                <div class="cv-column">
+                    <!-- Seção Idiomas -->
+                    <section class="cv-section">
+                        <h2 class="section-title"><i class="fa-solid fa-globe"></i> Idiomas</h2>
+                        <div id="cv-idiomas-container" class="idiomas-wrapper"></div>
+                    </section>
+
+                    <!-- Seção Dados Complementares -->
+                    <section class="cv-section">
+                        <h2 class="section-title"><i class="fa-solid fa-circle-info"></i> Dados Complementares</h2>
+                        <div id="cv-dados-complementares-container" class="complementares-wrapper"></div>
+                    </section>
                 </div>
 
-                <!-- Cargo 2 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Gerente de Projetos / Scrum Master — FioTEC (RPA)</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> Ministério da Saúde</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 10/2025 – 2026</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Destaque para a atuação no SisDJUD (Sistema das Demandas em Judicialização na Saúde) junto ao Departamento de Gestão das Demandas em Judicialização na Saúde (DJUD), liderando entregas estratégicas e otimizando processos de software.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Planejamento e sequenciamento de pipeline com foco em mapeamento de dependências e mitigação de riscos de atraso/bloqueios.</p>
-                        <p>Monitoramento contínuo de métricas estratégicas: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio. </p>
-                        <p>Alinhamento do propósito e escopo do time de desenvolvimento com os objetivos estratégicos e OKRs da instituição.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Elicitação e escrita de Histórias de Usuário (HU), especificação de regras de negócio e documentação funcional.</p>
-                        <p>Suporte estratégico ao Product Owner na gestão, refinamento e priorização contínua do Backlog.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Validação de hipóteses por meio de prototipagem, MVPs e testes A/B.</p>
-                        <p>Mapeamento de dores do público-alvo, definição da proposta de valor e engajamento dos usuários promotores (champions).</p>
-                        <p>Planejamento e comunicação estratégica de lançamentos para garantir alta adesão e engajamento dos usuários.</p>
-                        <p>Incentivo a uma cultura de experimentação, aprendizado contínuo e trocas de feedback construtivas.</p>
-                        <p></p>
-                        <p></p>
-                        
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">Scrum (Framework Ágil Principal)</span>
-                                <span class="tag-pill tag-agile">SAFe (Scaled Agile Framework)</span>
-                                <span class="tag-pill tag-agile">Agile Coaching & Transformação Ágil</span>
-                                <span class="tag-pill tag-agile">DoD (Definition of Done)</span>
-                                <span class="tag-pill tag-agile">RaodMap</span>
-                                <span class="tag-pill tag-agile">PDCA (Melhoria Contínua)</span>
-                                <span class="tag-pill tag-biz">Jira & Jira Align</span>
-                                <span class="tag-pill tag-pm">GIT (Controle de Versão)</span>
-                                <span class="tag-pill tag-pm">IA (Inteligência artificial)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (MS Office)</span>
-                                <span class="tag-pill tag-tech">Gestão de Backlog</span>
-                                <span class="tag-pill tag-tech">Gestão de Contrato</span>
-                                <span class="tag-pill tag-tech">Gestão de Escopo</span>
-                                <span class="tag-pill tag-tech">Gestão de Mudanças</span>
-                                <span class="tag-pill tag-tech">Gestão de Pessoas</span>
-                                <span class="tag-pill tag-tech">Gestão de Prazos</span>
-                                <span class="tag-pill tag-tech">Gestão de Riscos</span>
-                                <span class="tag-pill tag-soft">Liderança</span>
-                                <span class="tag-pill tag-soft">Negociação</span>
-                                <span class="tag-pill tag-soft">Comunicação</span>
-                                <span class="tag-pill tag-soft">Profissionalismo</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Coluna 2: Cargos Desejados & Objetivos -->
+                <div class="cv-column">
+                    <!-- Seção Cargos Desejados -->
+                    <section class="cv-section">
+                        <h2 class="section-title"><i class="fa-solid fa-user-tie"></i> Cargos Desejados</h2>
+                        <div id="cv-cargos-desejados-container" class="tags-container"></div>
+                    </section>
 
-                <!-- Cargo 3 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Scrum Master — Global Hitss (Claro)</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> Min. Cidadania / MAPA / MPA / DPU</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 04/2021 – 03/2025</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Liderança e transformação ágil na gestão de projetos públicos estratégicos. Fui um dos responsáveis por implementar e consolidar a prática ágil na Subsecretaria de Tecnologia da Informação do Ministério da Cidadania e, posteriormente, no Ministério da Agricultura e Pecuária (MAPA), adaptando o framework Scrum para a realidade do setor público por meio do Framework ECOPROD. Promovi a cultura de inovação unindo princípios do Manifesto Ágil, Lean Startup, Lean Inception, Design Thinking, Six Sigma e técnicas de UX (Design Visual, Arquitetura de Informação, Usabilidade e Pesquisa de Usuário).</p>
-                        <p>Destaque para a atuação nos Projetos <strong>ECOPROD, SIPEAGRO, Pescados Profissional, Mapa de Bordo, SIGTV, SIGTR, SIPC, Ressarcimento do Auxilio Emergencial</strong>.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Gestão de Projetos & Agilidade: Planejamento de Pipeline: Sequenciamento estratégico de entregas, mapeamento de dependências técnicas/operacionais e mitigação proativa de riscos de bloqueio ou atrasos.</p>
-                        <p> Alinhamento Estratégico: Conexão entre o propósito do time e os objetivos macrogovernamentais e institucionais (OKRs e metas globais).</p>
-                        <p>Governança & Operações: Atuação direta em Integração Contínua e Gestão de Sustentação de sistemas essenciais.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Engenharia de Requisitos: Mapeamento contínuo de oportunidades e elaboração de Histórias de Usuário (HUs) e documentação focada em hipóteses de negócio.</p>
-                        <p>Facilitação de Inception: Condução de dinâmicas de Lean Inception para alinhamento entre stakeholders, definição de escopo, MVP e clareza da proposta de valor dos produtos.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Validação & Experimentação: Testes A/B, MVPs e prototipagem para coleta de dados reais e validação contínua de hipóteses com usuários.</p>
-                        <p>Comunicação & Adoção: Definição da estratégia de distribuição e comunicação de lançamentos para acelerar a adoção das soluções.</p>
-                        <p>Centralidade no Usuário: Mapeamento profundo de dores do público-alvo e engajamento ativo de champions (usuários promotores) para impulsionar o sucesso dos produtos.</p>
-                                                
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">Scrum (Framework Ágil Principal)</span>
-                                <span class="tag-pill tag-agile">Agile Coaching & Transformação Ágil</span>
-                                <span class="tag-pill tag-agile">Lean Inception (Facilitação e Execução)</span>
-                                <span class="tag-pill tag-biz">Redmine</span>
-                                <span class="tag-pill tag-biz">Bizagi Modeler (Mapeamento BPMN)</span>
-                                <span class="tag-pill tag-pm">Postgre (Consultas e Análise de Dados)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (MS Office)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (Google Suite)</span>
-                                <span class="tag-pill tag-pm">metodologia (ECOPROD)</span>
-                                <span class="tag-pill tag-tech">Gestão de Backlog</span>
-                                <span class="tag-pill tag-tech">Gestão de Contrato</span>
-                                <span class="tag-pill tag-tech">Gestão de Escopo</span>
-                                <span class="tag-pill tag-tech">Gestão de Mudanças</span>
-                                <span class="tag-pill tag-tech">Gestão de Pessoas</span>
-                                <span class="tag-pill tag-tech">Gestão de Prazos</span>
-                                <span class="tag-pill tag-tech">Gestão de Riscos</span>
-                                <span class="tag-pill tag-tech">Histórias de Usuário (HU) </span>
-                                <span class="tag-pill tag-tech">Engenharia de Requisitos e Negócio (BABOK v3) </span>
-                                <span class="tag-pill tag-tech">UX, Wireframing & Prototipagem </span>
-                                <span class="tag-pill tag-tech">Design Thinking </span>
-                                <span class="tag-pill tag-soft">Liderança</span>
-                                <span class="tag-pill tag-soft">Liderança de Equipes Multidisciplinares</span>
-                                <span class="tag-pill tag-soft">Liderança Ágil Multi-projetos</span>
-                                <span class="tag-pill tag-soft">Negociação</span>
-                                <span class="tag-pill tag-soft">Comunicação</span>
-                                <span class="tag-pill tag-soft">Profissionalismo</span>
-                                <span class="tag-pill tag-soft">Adaptabilidade</span>
-                                <span class="tag-pill tag-soft">Facilitação</span>
-                                <span class="tag-pill tag-soft">Gestão de Mudanças Organizacionais</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cargo 4 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Analista de Governança e Compliance — DATAINFO</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> Ministério da Cidadania</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 02/2021 – 04/2021</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Liderança da frente de Governança, Compliance e Inovação em Processos no Ministério da Cidadania. Responsável pela definição, implantação e melhoria contínua dos modelos, padrões e procedimentos organizacionais baseados em metodologias ágeis (Scrum/Lean). Atuação estratégica na garantia da conformidade dos produtos entregues pelas equipes de TI, assegurando alinhamento aos padrões de qualidade, requisitos regulatórios e diretrizes organizacionais.</p>
-                        <p>Destaque para a atuação no Projeto <strong>ECOPROD</strong>.</p>
-                        <p>Definição e implementação da metodologia ágil na condução e execução dos projetos de TI, realização de Lean Inception.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Definição Metodológica: Implantação e padronização do framework ágil (Scrum) para a condução e execução dos projetos de TI da instituição.</p>
-                        <p>Mentoria e Suporte Agilista: Atuação como facilitador e referência ágil para equipes multidisciplinares na elaboração de entregáveis operacionais, negociais, de processos e de projetos.</p>
-                        <p>Governança & Auditabilidade: Verificação e auditoria de conformidade dos produtos desenvolvidos frente aos padrões e modelos organizacionais estabelecidos.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Facilitação de Alinhamento (Lean Inception): Condução de workshops de Lean Inception para alinhamento de escopo, visão de produto e definição do MVP entre stakeholders e times técnicos.</p>
-                        <p>apacitação em Papéis Ágeis: Suporte consultivo e prático a Product Owners (POs) e Scrum Masters (SMs) na estruturação de backlogs, modelagem de requisitos e fluxo de valor das entregas.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Melhoria Contínua de Processos: Evolução dos frameworks operacionais com foco na redução de desperdícios e aumento do padrão de qualidade das entregas. </p>
-                        <p>Padronização de Entregáveis: Criação de diretrizes de produto que conectam a conformidade regulatória às necessidades dos usuários e áreas de negócio do Ministério.</p>
-                        
-
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">Scrum (Framework Ágil Principal)</span>
-                                <span class="tag-pill tag-agile">Agile Coaching & Transformação Ágil</span>
-                                <span class="tag-pill tag-agile">QA (Teste)</span>
-                                <span class="tag-pill tag-agile">SAFe (Scaled Agile Framework)</span>
-                                <span class="tag-pill tag-agile">XP (Extreme Programming)</span>
-                                <span class="tag-pill tag-agile">COBIT & ITIL (Governança de TI)</span>
-                                <span class="tag-pill tag-agile">Compliance</span>
-                                <span class="tag-pill tag-biz">Taiga</span>
-                                <span class="tag-pill tag-biz">Bizagi Modeler (Mapeamento BPMN)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (MS Office)</span>
-                                <span class="tag-pill tag-tech">Gestão Portfólio de Projetos</span>
-                                <span class="tag-pill tag-tech">Design Thinking </span>
-                                <span class="tag-pill tag-tech">Six Sigma (Yellow/White Belt) </span>
-                                <span class="tag-pill tag-soft">Comunicação</span>
-                                <span class="tag-pill tag-soft">Profissionalismo</span>
-                                <span class="tag-pill tag-soft">Adaptabilidade</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cargo 5 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Analista de Negócios / Requisitos / GP — MONTREAL</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> Ministério da Cidadania</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 08/2018 – 11/2020</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Liderança multidisciplinar atuando como Gerente de Projetos, Team Leader, Product Owner e responsável pela Governança de Processos no Ministério da Cidadania. </p>
-                        <p>Destaque para a liderança no desenvolvimento do <strong>Sistema de Gestão de Capacitação (SGC)</strong>, construído sobre a plataforma Moodle.</p>
-                        <p>Atuação abrangente no ciclo de vida de software, integrando o mapeamento de processos de negócios (BPM/BPMN) à gestão técnica junto à fábrica de software, priorizando decisões orientadas a dados e sinais reais do usuário.</p>
-                        <p>Destaque para a atuação nos Projetos <strong>Criança Feliz, CECAD, Progredir, SGC.</strong>. </p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Liderança de Times & Fábrica de Software: Gestão e coordenação de equipes multidisciplinares e intermediação técnica com a fábrica de software para alinhamento de prazos, escopo e entregáveis.</p>
-                        <p>Mapeamento & Governança de Processos: Mapeamento de processos de negócios em notação BPMN e elaboração do Descritivo de Processos para padronização e otimização organizacional.</p>
-                        <p>Gestão de Projetos de BI: Mapeamento e análise de requisitos voltados para soluções de Inteligência de Negócios (Power BI e QlikView), garantindo suporte à tomada de decisão estratégica.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Atuação Completa como Product Owner: Imersão no entendimento do negócio, repasse de conhecimento aos times técnicos e especificação detalhada de regras de negócio sob o framework Scrum.</p>
-                        <p>Engenharia de Requisitos & UX: Escrita de Histórias de Usuário (User Stories), definição precisa de critérios de aceite, prototipagem de telas, elaboração de wireframes e mapeamento da experiência do usuário (UX).</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Discovery & Validação Continuada: Combinação da estruturação técnica de requisitos com discovery prático para validação contínua de hipóteses antes do desenvolvimento em escala.</p>
-                        <p>Experimentação com MVPs: Aplicação de protótipos interativos, páginas de teste (MVPs) e testes A/B para coletar dados de comportamento e adaptar as soluções às reais necessidades dos usuários.</p>
-                                            
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">PMP / PMBOK (Gestão de Projetos Tradicional)</span>
-                                <span class="tag-pill tag-agile">Scrum (Framework Ágil Principal)</span>
-                                <span class="tag-pill tag-agile">Lean Principles & Value Streams</span>
-                                <span class="tag-pill tag-biz">Taiga</span>
-                                <span class="tag-pill tag-biz">MS Project</span>
-                                <span class="tag-pill tag-biz">Bizagi Modeler (Mapeamento BPMN)</span>
-                                <span class="tag-pill tag-biz">Visão do Projeto</span>
-                                <span class="tag-pill tag-biz">Gestão de Fábrica de Software</span>
-                                <span class="tag-pill tag-biz">Termo de Abertura do Projeto (TAP)</span>
-                                <span class="tag-pill tag-pm">Sistemas Operacionais (Windows)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (MS Office)</span>
-                                <span class="tag-pill tag-pm">Moodle</span>
-                                <span class="tag-pill tag-pm">Joomla</span>
-                                <span class="tag-pill tag-tech">UC (casos de Uso)</span>
-                                <span class="tag-pill tag-tech">Engenharia de Requisitos e Negócio (BABOK v3) </span>
-                                <span class="tag-pill tag-tech">UX, Wireframing & Prototipagem </span>
-                                <span class="tag-pill tag-soft">Liderança</span>
-                                <span class="tag-pill tag-soft">Liderança de Equipes Multidisciplinares</span>
-                                <span class="tag-pill tag-soft">Liderança Ágil Multi-projetos</span>
-                                <span class="tag-pill tag-soft">Profissionalismo</span>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cargo 6 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Analista de Requisitos — VERT INTEGRADORA DE TI</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> DPU – Defensoria Pública da União</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 07/2018 – 08/2018</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> focada no levantamento de requisitos, análise de negócios e modelagem de soluções corporativas aplicadas à plataforma Microsoft SharePoint. </p>
-                        <p>Atuação direta no entendimento das necessidades operacionais das áreas jurídicas e administrativas da DPU, transformando demandas complexas em arquiteturas de informação eficientes, automação de fluxos e portais colaborativos.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Alinhamento de Escopo: Facilitação no levantamento de necessidades junto aos stakeholders para definição clara de escopo e expectativas de entregas em ambiente SharePoint.</p>
-                        <p>Otimização de Processos: Estruturação de fluxos de trabalho e arquitetura de dados para promover produtividade e colaboração interna na instituição.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Elicitação e Mapeamento de Negócio: Levantamento minucioso de requisitos funcionais, não funcionais e detalhamento de Regras de Negócio (RN).</p>
-                        <p>Especificação Técnica & Funcional: Tradução de necessidades operacionais em especificações detalhadas de portais, listas, bibliotecas de documentos e automações em SharePoint. </p>
-                        <p>Apoio na Gestão de Demandas: Organização e priorização do fluxo de solicitações de novas funcionalidades ou melhorias nos sistemas existentes.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Prototipagem & Validação: Criação de protótipos de navegação e fluxos em SharePoint para validação prévia da usabilidade com os usuários finais.</p>
-                        <p>doção & Qualidade: Acompanhamento de testes de homologação, garantia de usabilidade e suporte à estratégia de comunicação/treinamento para adoção das novas soluções pela equipe da DPU.</p>
-                        
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-pm">MS SharePoint (2010 / 2013)</span>
-                                <span class="tag-pill tag-pm">Desenvolvimento Web (Java Script, HTML, CSS)</span>
-                                <span class="tag-pill tag-tech">Engenharia de Requisitos e Negócio (BABOK v3) </span>
-                                <span class="tag-pill tag-tech">UC (casos de Uso)</span>
-                                <span class="tag-pill tag-soft">Profissionalismo</span>
-                                <span class="tag-pill tag-soft">Ética</span>
-                                <span class="tag-pill tag-soft">Negociação</span>
-                                <span class="tag-pill tag-soft">Comunicação</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cargo 7 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Analista de Sistemas / Coordenador / GP — CTIS TECNOLOGIA</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> CTIS Tecnologia</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 05/2012 – 01/2018</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Liderança estratégica e operacional em Gerência de Projetos, Governança de TI e Coordenação de Equipes multidisciplinares. Atuação híbrida combinando a previsibilidade e governança das metodologias tradicionais (PMBOK/PMP) à flexibilidade dos frameworks ágeis (Scrum). .</p>
-                        <p>Responsável pela modelagem de processos de negócios (BPMN), análise de sistemas e estruturação de relatórios e dashboards de Inteligência de Negócios (Tableau) para suporte à tomada de decisão executiva.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Governança & Planejamento: Elaboração e acompanhamento de cronogramas complexos, alocação de recursos e gestão de riscos utilizando o MS Project sob as melhores práticas do PMBOK/PMP.</p>
-                        <p>Coordenação de Equipes & Agilidade: Liderança de times multidisciplinares atuando como Scrum Master, facilitando ritos ágeis, removendo impedimentos e promovendo a melhoria contínua das entregas.</p>
-                        <p>BI & Métricas de Gestão: Modelagem e desenvolvimento de dashboards no Tableau para monitoramento de KPIs de desempenho, evolução do projeto e valor entregue ao negócio.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Engenharia de Sistemas & BPMN: Mapeamento, otimização e documentação de processos de negócio em notação BPMN, articulando as necessidades de negócio com as arquiteturas de TI.</p>
-                        <p>Atuação de Product Owner: Levantamento, refinamento e priorização de requisitos funcionais e não funcionais, traduzindo visões estratégicas em backlogs estruturados.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Conexão Estratégica: Alinhamento contínuo entre os entregáveis técnicos de projetos e os objetivos globais da organização.</p>
-                        <p>Estratégia de Rollout: Planejamento e coordenação do lançamento de novas soluções e sistemas, garantindo a transição suave de processos operacionais e a rápida adoção pelos usuários.</p>
-                        
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">PMP / PMBOK (Gestão de Projetos Tradicional)</span>
-                                <span class="tag-pill tag-agile">XP (Extreme Programming)</span>
-                                <span class="tag-pill tag-agile">COBIT & ITIL (Governança de TI)</span>
-                                <span class="tag-pill tag-agile">QA (Teste)</span>
-                                <span class="tag-pill tag-biz">Bizagi Modeler (Mapeamento BPMN)</span>
-                                <span class="tag-pill tag-biz">Tableau</span>
-                                <span class="tag-pill tag-biz">MS Project</span>
-                                <span class="tag-pill tag-pm">MS SharePoint (2010 / 2013)</span>
-                                <span class="tag-pill tag-pm">Sistemas Operacionais (Windows)</span>
-                                <span class="tag-pill tag-pm">Sistemas ERP (SAP)</span>
-                                <span class="tag-pill tag-pm">Sistemas ERP (TOTVS)</span>
-                                <span class="tag-pill tag-pm">Moodle</span>
-                                <span class="tag-pill tag-pm">Joomla</span>
-                                <span class="tag-pill tag-tech">Coordenação </span>
-                                <span class="tag-pill tag-tech">Engenharia de Requisitos e Negócio (BABOK v3) </span>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cargo 8 -->
-                <div class="job-item">
-                    <div class="job-header">
-                        <div>
-                            <h3 class="job-title">Analista de Sistemas / Requisitos — Universidade de Brasília</h3>
-                            <span class="job-client"><i class="fa-solid fa-building"></i> UnB</span>
-                        </div>
-                        <span class="job-period"><i class="fa-solid fa-calendar"></i> 12/2008 – 04/2012</span>
-                    </div>
-                    <button class="btn-toggle" onclick="toggleDetails(this)">
-                        <span>Ver detalhes</span> <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="job-details">
-                        <p><strong>Atuação:</strong> Atuação versátil e multidisciplinar cobrindo todo o ciclo de vida de tecnologia, desde o desenvolvimento de software (Java Web e PHP) e análise de requisitos até a governança de infraestrutura e suporte de TI. Experiência no atendimento direto a docentes/professores, gestão e manutenção de redes, suporte técnico especializado e sustentação de processos administrativos e operacionais.</p>
-                        <p><strong>Gestão de Projetos & Agilidade:</strong> Gestão de Demandas & Sustentação: Acompanhamento do fluxo de chamados e suporte contínuo, garantindo a disponibilidade e estabilidade dos sistemas e da rede de dados.</p>
-                        <p>Coordenação Operacional: Organização de prioridades operacionais entre equipes administrativas, corpo docente e times técnicos para alinhamento de prazos e entregáveis.</p>
-                        <p><strong>Análise de Requisitos & Apoio ao PO:</strong> Engenharia de Requisitos: Levantamento de necessidades funcionais junto ao corpo docente e administrativo, traduzindo regras de negócio em especificações de sistemas.</p>
-                        <p>Modelagem & Arquitetura: Análise de sistemas focada na estruturação de dados e regras para desenvolvimento e evolução de plataformas web.</p>
-                        <p><strong>Produto, Experimentação & Lançamentos:</strong> Produto, Experimentação & Lançamentos: Desenvolvimento & Evolução de Soluções: Programação e implementação de funcionalidades em Java Web e PHP, focando em usabilidade e resolução de dores dos usuários.</p>
-                        <p>Treinamento & Suporte ao Usuário: Condução de testes de aceitação, apoio na homologação e capacitação contínua de professores e colaboradores para garantir a plena adoção das ferramentas tecnológicas.</p>
-                        
-                        <!-- Habilidades do Cargo -->
-                        <div class="job-skills">
-                            <strong><i class="fa-solid fa-gears"></i> Competências Aplicadas:</strong>
-                            <div class="tags-container">
-                                <span class="tag-pill tag-agile">QA (Teste)</span>
-                                <span class="tag-pill tag-pm">SQL (Consultas e Análise de Dados)</span>
-                                <span class="tag-pill tag-pm">Sistemas Operacionais (Linux)</span>
-                                <span class="tag-pill tag-pm">Sistemas Operacionais (Windows)</span>
-                                <span class="tag-pill tag-pm">Suítes de Produtividade (MS Office)</span>
-                                <span class="tag-pill tag-pm">Suporte Técnico (Hardware, Software & redes)</span>
-                                <span class="tag-pill tag-tech">UC (casos de Uso)</span>
-                                <span class="tag-pill tag-tech">Engenharia de Requisitos e Negócio (BABOK v3) </span>
-                                <span class="tag-pill tag-tech">UX, Wireframing & Prototipagem </span>
-                                <span class="tag-pill tag-soft">Negociação</span>
-                                <span class="tag-pill tag-soft">Atendimento ao Usuário</span>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Seção Objetivos -->
+                    <section class="cv-section">
+                        <h2 class="section-title"><i class="fa-solid fa-bullseye"></i> Objetivos</h2>
+                        <div id="cv-objetivos-container" class="objetivos-wrapper"></div>
+                    </section>
                 </div>
 
             </div>
-        </div>
-
-        <!-- Formação Acadêmica -->
-        <div class="card">
-            <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
-            <div class="grid-cards">
-                <div class="info-box">
-                    <h3>Pós-Graduação em Gerenciamento Ágil de Projetos</h3>
-                    <p><strong>Instituição:</strong> Instituto Central de Minas EAD</p>
-                    <p><strong>Conclusão:</strong> Em Andamento</p>
-                </div>
-                <div class="info-box">
-                    <h3>Bacharel em Sistemas de Informação</h3>
-                    <p><strong>Instituição:</strong> INSTITUTO EURO-AMERICANO DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA S.A</p>
-                    <p><strong>Conclusão:</strong> 2026</p>
-                </div>
-                <div class="info-box">
-                    <h3>Bacharel em Sistemas de Informação</h3>
-                    <p><strong>Instituição:</strong> Faculdade Alvorada de Informática</p>
-                    <p><strong>Conclusão:</strong> 2011</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cursos e Certificações -->
-        <div class="card">
-            <h2 class="section-title"><i class="fa-solid fa-award"></i> Cursos e Certificações</h2>
-            <div class="tags-container">
-                <span class="tag">Kanban Essentials Professional Certificate (KEPC)</span>
-                <span class="tag">Scrum Foundation Professional Certificate (SFPC)</span>
-                <span class="tag">White Belt em Lean Six-Sigma Certificate </span>
-                <span class="tag">White Belt em Lean Six-Sigma</span>
-                <span class="tag">Yellow Belt em Lean Six-Sigma</span>
-                <span class="tag">Analise de Negócios (BABOK v3)</span>
-                <span class="tag">Lean</span>
-                <span class="tag">PMP-CAPM</span>
-                <span class="tag">Mapeamento e Modelagem de Processos (BPMN)</span>
-                <span class="tag">Configuring and Administering Microsoft SharePoint 2013</span>
-                <span class="tag">Configuring and Administering Microsoft SharePoint 2010</span>
-                <span class="tag">Gerenciamento de TI</span>
-                <span class="tag">Gestão de Projetos 01</span>
-                <span class="tag">Linguagem HTML e CSS</span>
-
-            </div>
-        </div>
-
-        <!-- Habilidades Consolidadas (Oculto) -->
-        <div class="card" style="display: none;">
-            <h2 class="section-title"><i class="fa-solid fa-code"></i> Habilidades Consolidadas</h2>
-            <div class="skills-category-grid">
-                <!-- Conteúdo mantido mas ocultado via style -->
-            </div>
-        </div> 
-
-        <!-- Idiomas e Dados Complementares -->
-        <div class="grid-cards">
-            <div class="card">
-                <h2 class="section-title"><i class="fa-solid fa-language"></i> Idiomas</h2>
-                <p><strong>Português:</strong> Nativo</p>
-                <p><strong>Espanhol:</strong> Básico</p>
-            </div>
-            <div class="card">
-                <h2 class="section-title"><i class="fa-solid fa-info-circle"></i> Dados Complementares</h2>
-                <ul class="cert-details">
-                    <li><i class="fa-solid fa-plane"></i> Disponibilidade para viajar</li>
-                    <li><i class="fa-solid fa-briefcase"></i> Consultoria Freelancer</li>
-                    <li><i class="fa-solid fa-id-card"></i> CNH: A e B</li>
-                    <li><i class="fa-solid fa-money-bill-wave"></i> Pretensão Salarial CLT: R$ 12.000 (Bruto) aberto à negociação</li>
-                    <li><i class="fa-solid fa-money-bill-wave"></i> Pretensão Salarial PJ: R$ 15.500 (Bruto) aberto à negociação</li>
-                    <li><i class="fa-solid fa-file-contract"></i> Regime: CLT | PJ (Período Integral)</li>
-                </ul>
-            </div>
-        </div>
-
+        </article>
     </main>
 
     <!-- Footer Section -->
     <footer>
         <div class="footer-content">
             <div class="footer-text">
-                <h3>Glauco Kendi Ribeiro Itai</h3>
-                <p>Currículo gerado em HTML — Execução local</p>
+                <h3 id="footer-nome"></h3>
+                <p id="footer-titulo"></p>
             </div>
+            <div class="social-links" id="social-container"></div>
         </div>
     </footer>
-
-    <!-- JS Externo -->
-    <script src="cvscript.js"></script>
 
 </body>
 </html>
