@@ -1298,7 +1298,7 @@ footer {
 }
 
 /* ==========================================================================
-   12. ESTILOS PARA IMPRESSÃO (PDF / PRINT)
+   12. ESTILOS PARA IMPRESSÃO / MODELO PDF EXACT (A4)
    ========================================================================== */
 @media print {
     @page {
@@ -1306,7 +1306,7 @@ footer {
         margin: 12mm 15mm 15mm 15mm;
     }
 
-    /* Oculta elementos de navegação, ações e botões interativos */
+    /* Ocultar elementos de navegação e controles de tela */
     header, 
     footer, 
     nav,
@@ -1319,11 +1319,11 @@ footer {
         display: none !important;
     }
 
-    /* Ajuste geral do corpo do documento */
+    /* Configuração Base de Texto e Cores */
     body {
         font-family: 'Inter', Arial, sans-serif;
-        font-size: 9pt;
-        line-height: 1.4;
+        font-size: 8.5pt;
+        line-height: 1.35;
         color: #1e293b;
         background: #ffffff !important;
     }
@@ -1343,40 +1343,126 @@ footer {
         margin: 0 !important;
     }
 
-    /* Cabeçalho do CV na impressão */
+    /* Cabeçalho do Modelo */
+    .cv-header {
+        text-align: left !important;
+        margin-bottom: 12px !important;
+    }
+
     .cv-header h1 {
-        font-size: 18pt;
-        color: #1e293b !important;
-        margin-bottom: 2px;
+        font-size: 15pt !important;
+        font-weight: 800 !important;
+        color: #0f172a !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.5px;
+        margin-bottom: 2px !important;
     }
 
     .cv-cargo {
-        font-size: 11pt;
+        font-size: 9.5pt !important;
+        font-weight: 700 !important;
         color: #2563eb !important;
-        margin-bottom: 8px;
+        margin-bottom: 4px !important;
     }
 
     .cv-contact-grid {
-        gap: 0.8rem;
-        font-size: 8.5pt;
+        display: flex !important;
+        justify-content: flex-start !important;
+        gap: 12px !important;
+        font-size: 8pt !important;
+        color: #475569 !important;
+    }
+
+    .cv-contact-grid span, .cv-contact-grid a {
+        color: #334155 !important;
+        text-decoration: none !important;
     }
 
     .cv-divider {
-        margin: 1rem 0 !important;
-        border-top: 1px solid #cbd5e1 !important;
+        display: none !important;
     }
 
+    /* Títulos de Seção Estilo PDF Modelo */
     .section-title {
-        font-size: 11pt;
-        font-weight: 700;
-        color: #1e293b;
-        border-bottom: 1.5px solid #1e293b;
-        padding-bottom: 3px;
-        margin-top: 12px;
-        margin-bottom: 10px;
+        font-size: 9.5pt !important;
+        font-weight: 800 !important;
+        color: #0f172a !important;
+        text-transform: uppercase !important;
+        border-bottom: 1.5px solid #0f172a !important;
+        padding-bottom: 2px !important;
+        margin-top: 14px !important;
+        margin-bottom: 8px !important;
     }
 
-    /* Força a expansão total das seções recolhidas (sanfona) */
+    .section-title i {
+        display: none !important; /* Oculta ícones na impressão para manter padrão limpo */
+    }
+
+    /* Resumo Profissional */
+    .bio-text p {
+        font-size: 8.5pt !important;
+        text-align: justify !important;
+        margin-bottom: 6px !important;
+        line-height: 1.35 !important;
+    }
+
+    /* Histórico Profissional & Linha do Tempo */
+    .timeline {
+        padding-left: 0 !important;
+        margin-top: 6px !important;
+    }
+
+    .timeline::before,
+    .timeline-dot {
+        display: none !important; /* Oculta linha vertical e pontos da timeline */
+    }
+
+    .timeline-item {
+        page-break-inside: avoid;
+        margin-bottom: 12px !important;
+    }
+
+    .timeline-content {
+        background: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    .timeline-header {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: baseline !important;
+        margin-bottom: 2px !important;
+    }
+
+    .job-title {
+        font-size: 9pt !important;
+        font-weight: 700 !important;
+        color: #0f172a !important;
+    }
+
+    .job-period {
+        font-size: 8pt !important;
+        font-weight: 700 !important;
+        color: #334155 !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+
+    .company-name, .client-name {
+        font-size: 8pt !important;
+        color: #475569 !important;
+        margin-bottom: 4px !important;
+        background: none !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    .company-name i, .client-name i {
+        display: none !important;
+    }
+
+    /* Expansão e Ajuste das Descrições do Cargo */
     .job-details-wrapper,
     .job-details-wrapper.collapsed,
     .job-descriptions-wrapper,
@@ -1387,52 +1473,87 @@ footer {
         visibility: visible !important;
     }
 
-    .timeline {
-        padding-left: 1rem;
-        margin-top: 1rem;
+    .job-description {
+        font-size: 8.5pt !important;
+        line-height: 1.35 !important;
+        margin-bottom: 4px !important;
+        text-align: justify !important;
     }
 
-    .timeline-item {
-        page-break-inside: avoid;
-        margin-bottom: 1.2rem;
+    /* Seção Competências Aplicadas do Modelo */
+    .job-skills {
+        margin-top: 6px !important;
+        padding-top: 4px !important;
+        border-top: 1px dashed #cbd5e1 !important;
     }
 
-    .timeline-content {
-        background: #ffffff !important;
-        border: 1px solid #e2e8f0 !important;
-        padding: 0.8rem !important;
+    .job-skills strong {
+        font-size: 7.5pt !important;
+        text-transform: uppercase !important;
+        color: #0f172a !important;
+        margin-bottom: 4px !important;
     }
 
-    /* Grids e Colunas na impressão */
-    .academic-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.8rem !important;
+    .tags-container {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 4px !important;
     }
 
-    .academic-card {
-        background: #ffffff !important;
-        border: 1px solid #e2e8f0 !important;
-        padding: 0.6rem !important;
-        page-break-inside: avoid;
-    }
-
-    .cv-two-columns-grid {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 1rem !important;
-        page-break-inside: avoid;
-    }
-
-    /* Tag Pills e Emblemas */
-    .tag-pill, 
-    .tag,
-    .btn-course-tag {
+    .tag-pill, .tag, .btn-course-tag {
         background-color: #f1f5f9 !important;
-        color: #334155 !important;
+        color: #1e293b !important;
         border: 1px solid #cbd5e1 !important;
         padding: 2px 6px !important;
+        border-radius: 3px !important;
         font-size: 7.5pt !important;
         box-shadow: none !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
+    }
+
+    /* Formação Acadêmica & Cursos Grid */
+    .academic-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+    }
+
+    .academic-card {
+        background: transparent !important;
+        border: 1px solid #cbd5e1 !important;
+        padding: 6px 8px !important;
+        border-radius: 4px !important;
+        page-break-inside: avoid;
+    }
+
+    .item-title {
+        font-size: 8.5pt !important;
+        font-weight: 700 !important;
+    }
+
+    .item-institution {
+        font-size: 8pt !important;
+    }
+
+    .item-year {
+        background: none !important;
+        color: #0f172a !important;
+        padding: 0 !important;
+        font-weight: 700 !important;
+    }
+
+    /* Duas Colunas (Idiomas, Complementares, Objetivos) */
+    .cv-two-columns-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
+        page-break-inside: avoid;
+    }
+
+    .idioma-item, .complementar-item, .objetivo-item {
+        font-size: 8.5pt !important;
+    }
+
+    .idioma-item i, .complementar-item i, .objetivo-item i {
+        display: none !important;
     }
 }
