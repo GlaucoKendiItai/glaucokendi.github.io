@@ -226,7 +226,50 @@ function toggleDetalhes(containerId, button) {
         button.innerHTML = '<i class="fa-solid fa-chevron-down"></i> Ver Detalhes';
     }
 }
-// Função Global para acionar a impressão/salvamento em PDF
-function imprimirEmOutraPagina() {
-    window.print();
+// Função para gerar o PDF formatado mantendo a estrutura exata de seções
+function gerarPDF() {
+    // 1. Verifica se a biblioteca html2pdf carregou corretamente
+    if (typeof html2pdf === 'undefined') {
+        console.warn('Biblioteca html2pdf não encontrada. Utilizando impressão padrão...');
+        window.print();
+        return;
+    }
+
+    const element = document.getElementById('cv-content');
+    if (!element) {
+        alert('Erro: Conteúdo do currículo não encontrado.');
+        return;
+    }
+
+    // 2. Expande temporariamente todos os blocos de detalhes ocultos para saírem no PDF
+    const collapsedWrappers = element.querySelectorAll('.job-details-wrapper.collapsed');
+    collapsedWrappers.forEach(wrapper => wrapper.classList.remove('collapsed'));
+
+    // 3. Configurações otimizadas para layout compacto de até 5 páginas A4
+    const options = {
+        margin:       [8, 10, 8, 10], // Top, Right, Bottom, Left (em mm)
+        filename:     'Curriculo_Glauco_Kendi_Ribeiro_Itai.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, 
+            useCORS: true, 
+            allowTaint: true,
+            logging: false 
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
+        pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
+    };
+
+    // 4. Execução e tratamento de exceção
+    html2pdf().set(options).from(element).save()
+        .then(() => {
+            // Restaura a tela após o download
+            collapsedWrappers.forEach(wrapper => wrapper.classList.add('collapsed'));
+        })
+        .catch(err => {
+            console.error('Erro ao gerar PDF com html2pdf:', err);
+            // Restaura os elementos e aciona o diálogo de impressão como plano B
+            collapsedWrappers.forEach(wrapper => wrapper.classList.add('collapsed'));
+            window.print();
+        });
 }
