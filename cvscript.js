@@ -228,25 +228,32 @@ function toggleDetalhes(containerId, button) {
 }
 
 /**
- * Função para gerar o PDF formatado utilizando a API nativa do navegador
+ * Função para gerar o PDF completo (Perfil + Experiências + Formação + Certificações)
+ * utilizando o mecanismo de impressão nativo do navegador do modelo original.
  */
 function gerarPDF() {
-    // 1. Localiza o elemento principal do currículo
-    const element = document.querySelector('.cv-card') || document.getElementById('cv-content');
-    if (!element) {
-        alert('Erro: Conteúdo do currículo não encontrado.');
+    // 1. Garante que o contêiner raiz do currículo esteja visível
+    const cvCard = document.querySelector('.cv-card') || document.getElementById('cv-content');
+    if (!cvCard) {
+        alert('Erro: Seção de conteúdo do currículo não encontrada.');
         window.print();
         return;
     }
 
-    // 2. Expande todos os blocos de detalhes ocultos para que apareçam completos no PDF
-    const collapsedWrappers = element.querySelectorAll('.job-details-wrapper.collapsed');
+    // 2. Garante que a Seção Perfil/Sobre Mim esteja visível e expandida no DOM
+    const secaoPerfil = document.querySelector('.profile-section') || document.getElementById('cv-sobre-mim');
+    if (secaoPerfil) {
+        secaoPerfil.style.display = 'block';
+    }
+
+    // 3. Expande temporariamente todas as experiências retráteis para inclusão no PDF
+    const collapsedWrappers = cvCard.querySelectorAll('.job-details-wrapper.collapsed');
     collapsedWrappers.forEach(wrapper => wrapper.classList.remove('collapsed'));
 
-    // 3. Aciona a caixa de diálogo do navegador para Salvar como PDF / Imprimir
+    // 4. Executa a impressão nativa/geração de PDF
     window.print();
 
-    // 4. Restaura o estado oculto das descrições após fechar/confirmar a impressão
+    // 5. Restaura a visualização da tela após a caixa de diálogo do PDF fechar
     setTimeout(() => {
         collapsedWrappers.forEach(wrapper => wrapper.classList.add('collapsed'));
     }, 1000);
