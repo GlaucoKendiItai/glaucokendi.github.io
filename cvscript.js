@@ -226,3 +226,7 @@ function toggleDetalhes(containerId, button) {
         button.innerHTML = '<i class="fa-solid fa-chevron-down"></i> Ver Detalhes';
     }
 }
+// Função Global para acionar a impressão/salvamento em PDF
+function imprimirEmOutraPagina() {
+    window.print();
+}
