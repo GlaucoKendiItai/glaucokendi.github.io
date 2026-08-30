@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Garanta que a biblioteca venha ANTES do seu script cvscript.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="cvscript.js" defer></script>
 </head>
 <body>
@@ -33,7 +35,7 @@
     <!-- Barra de Ações (Apenas em tela) -->
     <div class="cv-actions-bar">
         <a href="index.html" class="btn-toggle"><i class="fa-solid fa-arrow-left"></i> Voltar</a>
-        <button onclick="window.print()" class="hero-btn print-btn"><i class="fa-solid fa-print"></i> Imprimir / Salvar PDF</button>
+        <button onclick="gerarPDF()" class="hero-btn print-btn"><i class="fa-solid fa-file-pdf"></i> Gerar PDF</button>
     </div>
 
     <!-- Conteúdo do Currículo -->
