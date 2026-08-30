@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ])
     .then(([dadosIndex, dadosExperiencias, dadosCertificacoes]) => {
         
-        // 1. Preenchimento do Perfil[cite: 11]
+        // 1. Preenchimento do Perfil
         const perfil = dadosIndex.perfil;
         document.getElementById('cv-nome').textContent = perfil.nome;
         document.getElementById('cv-cargo').textContent = perfil.titulo;
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         emailElem.href = `mailto:${perfil.email}`;
         document.getElementById('cv-telefone').textContent = perfil.telefone;
 
-        // Resumo Profissional (Sobre Mim)[cite: 11]
+        // Resumo Profissional (Sobre Mim)
         const sobreContainer = document.getElementById('cv-sobre-mim');
         if (sobreContainer) {
             sobreContainer.innerHTML = '';
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // 5. Preenchimento de Objetivos (Extraído de dadosindex.json com icone e texto)[cite: 11]
+        // 5. Preenchimento de Objetivos
         const objetivosContainer = document.getElementById('cv-objetivos-container');
         if (objetivosContainer && dadosIndex.objetivos) {
             objetivosContainer.innerHTML = '';
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // 6. Preenchimento de Cargos Desejados (Extraído de dadosindex.json)[cite: 11]
+        // 6. Preenchimento de Cargos Desejados
         const cargosDesejadosContainer = document.getElementById('cv-cargos-desejados-container');
         if (cargosDesejadosContainer && dadosIndex.cargosDesejados) {
             cargosDesejadosContainer.innerHTML = '';
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // 7. Preenchimento de Idiomas (Extraído de dadosindex.json)[cite: 11]
+        // 7. Preenchimento de Idiomas
         const idiomasContainer = document.getElementById('cv-idiomas-container');
         if (idiomasContainer && dadosIndex.idiomas) {
             idiomasContainer.innerHTML = '';
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // 8. Preenchimento de Dados Complementares (Extraído de dadosindex.json)[cite: 11]
+        // 8. Preenchimento de Dados Complementares
         const dadosComplementaresContainer = document.getElementById('cv-dados-complementares-container');
         if (dadosComplementaresContainer && dadosIndex.dadosComplementares) {
             dadosComplementaresContainer.innerHTML = '';
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // 9. Preenchimento do Rodapé[cite: 11]
+        // 9. Preenchimento do Rodapé
         const rodape = dadosCertificacoes.rodape || dadosExperiencias.rodape || {};
         const footerNomeElem = document.getElementById('footer-nome');
         const footerTituloElem = document.getElementById('footer-titulo');
@@ -226,50 +226,28 @@ function toggleDetalhes(containerId, button) {
         button.innerHTML = '<i class="fa-solid fa-chevron-down"></i> Ver Detalhes';
     }
 }
-// Função para gerar o PDF formatado mantendo a estrutura exata de seções
+
+/**
+ * Função para gerar o PDF formatado utilizando a API nativa do navegador
+ */
 function gerarPDF() {
-    // 1. Verifica se a biblioteca html2pdf carregou corretamente
-    if (typeof html2pdf === 'undefined') {
-        console.warn('Biblioteca html2pdf não encontrada. Utilizando impressão padrão...');
+    // 1. Localiza o elemento principal do currículo
+    const element = document.querySelector('.cv-card') || document.getElementById('cv-content');
+    if (!element) {
+        alert('Erro: Conteúdo do currículo não encontrado.');
         window.print();
         return;
     }
 
-    const element = document.getElementById('cv-content');
-    if (!element) {
-        alert('Erro: Conteúdo do currículo não encontrado.');
-        return;
-    }
-
-    // 2. Expande temporariamente todos os blocos de detalhes ocultos para saírem no PDF
+    // 2. Expande todos os blocos de detalhes ocultos para que apareçam completos no PDF
     const collapsedWrappers = element.querySelectorAll('.job-details-wrapper.collapsed');
     collapsedWrappers.forEach(wrapper => wrapper.classList.remove('collapsed'));
 
-    // 3. Configurações otimizadas para layout compacto de até 5 páginas A4
-    const options = {
-        margin:       [8, 10, 8, 10], // Top, Right, Bottom, Left (em mm)
-        filename:     'Curriculo_Glauco_Kendi_Ribeiro_Itai.pdf',
-        image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { 
-            scale: 2, 
-            useCORS: true, 
-            allowTaint: true,
-            logging: false 
-        },
-        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
-        pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
-    };
+    // 3. Aciona a caixa de diálogo do navegador para Salvar como PDF / Imprimir
+    window.print();
 
-    // 4. Execução e tratamento de exceção
-    html2pdf().set(options).from(element).save()
-        .then(() => {
-            // Restaura a tela após o download
-            collapsedWrappers.forEach(wrapper => wrapper.classList.add('collapsed'));
-        })
-        .catch(err => {
-            console.error('Erro ao gerar PDF com html2pdf:', err);
-            // Restaura os elementos e aciona o diálogo de impressão como plano B
-            collapsedWrappers.forEach(wrapper => wrapper.classList.add('collapsed'));
-            window.print();
-        });
+    // 4. Restaura o estado oculto das descrições após fechar/confirmar a impressão
+    setTimeout(() => {
+        collapsedWrappers.forEach(wrapper => wrapper.classList.add('collapsed'));
+    }, 1000);
 }
