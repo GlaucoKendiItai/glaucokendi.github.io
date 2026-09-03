@@ -40,10 +40,11 @@
     </section>
 
     <!-- Main Content Container -->
+    <!-- Main Content Container -->
     <main class="container">
         
         <!-- Bloco: Histórico de Atuação em Projetos -->
-        <div class="card">
+        <div id="historico-projetos" class="card">
             <h2 class="section-title">
                 <i class="fa-solid fa-clock-rotate-left"></i> Histórico de Atuação em Projetos
             </h2>
@@ -57,10 +58,21 @@
                 <div id="companyButtons" class="company-buttons-grid"></div>
             </div>
 
-            <!-- Lista Enxuta de Projetos (Exibida dinamicamente após selecionar uma empresa) -->
+            <!-- Lista Enxuta de Projetos -->
             <div id="projectsListContainer" class="projects-list-wrapper" style="display: none;">
                 <h3 id="selectedCompanyTitle" class="selected-company-heading"></h3>
                 <ul id="projectsSimpleList" class="projects-simple-list"></ul>
+            </div>
+        </div>
+
+        <!-- NOVO SETOR: Tempo de Experiência por Cargo -->
+        <div id="experiencia-por-cargo-container" class="card">
+            <h2 class="section-title">
+                <i class="fa-solid fa-business-time"></i> Tempo de Experiência por Cargo
+            </h2>
+            <p class="selector-label">Soma acumulada do tempo de atuação em cada função exercida ao longo da carreira:</p>
+            <div id="cargoExperienceGrid" class="cargo-experience-grid">
+                <!-- Preenchido dinamicamente via script -->
             </div>
         </div>
 
@@ -111,7 +123,10 @@
         </div>
     </footer>
 
-    <!-- Script JS Externo -->
+    <!-- Script JS Externo de Projetos -->
     <script src="projetoscript.js"></script>
+    
+    <!-- Script de Experiência Profissional (Tempo por Cargo) -->
+    <script src="experiencia.js"></script>
 </body>
 </html>

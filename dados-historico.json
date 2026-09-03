@@ -1,20 +1,23 @@
 {
   "experiencias": [
     {
-      "cargo": "Scrum Master / Gerente de Projetos Ágeis",
+      "cargo": [
+        "Scrum Master",
+        "Gerente de Projetos"
+      ],
       "periodo": "Set de 2025 – Até momento",
+      "tempo": "1 ano",
       "empresa": "QINTESS",
       "cliente": "Minist. da Justiça e Segurança Pública (MJSP)",
       "descricoes": [
         "◼ Atuação:",
-        "Liderança de projetos complexos de tecnologia na área de inteligência e segurança pública, com foco em ecossistemas de Business Intelligence (BI), ETL, Big Data, Data Lake e desenvolvimento de APIs. Destaque para a atuação no Projeto CÓRTEX (reestruturação tecnológica do sistema PIN), viabilizando operações integradas, suporte a decisões críticas e monitoramento de segurança pública em nível nacional.A modernização do ambiente visou garantir alta eficiência, interoperabilidade, escalabilidade e conformidade com as legislações vigentes",
+        "Liderança de projetos complexos de tecnologia na área de inteligência e segurança pública, com foco em ecossistemas de Business Intelligence (BI), ETL, Big Data, Data Lake e desenvolvimento de APIs. Destaque para a atuação no Projeto CÓRTEX (reestruturação tecnológica do sistema PIN), viabilizando operações integradas, suporte a decisões críticas e monitoramento de segurança pública em nível nacional.A modernização do ambiente visou garantir alta eficiência, interoperabilidade, escalabilidade e conformidade com as legislações vigentes",
         "◼ Gestão de Projetos & Agilidade:",
         "Planejamento de Pipeline & Riscos: Sequenciamento de entregas complexas de dados e APIs, mapeando dependências técnicas/operacionais e mitigando riscos de gargalos ou atrasos. Métricas de Impacto & Governança: Acompanhamento contínuo de KPIs de desempenho: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio. Alinhamento Estratégico: Conexão contínua da visão e do escopo do time de desenvolvimento aos objetivos macro e metas estratégicas (OKRs) do Ministério.",
         "◼ Análise de Requisitos & Apoio ao PO:",
         "Engenharia de Requisitos & RN: Mapeamento de regras de negócio (RN) complexas, elaboração de especificações funcionais e escrita de Histórias de Usuário (HUs). Gestão de Backlog: Atuação analítica junto ao Product Owner (PO) na definição de prioridades, refinamento técnico e garantia de valor entregue em cada sprint.",
         "◼ Produto, Experimentação & Lançamentos:",
         "Validação de Hipóteses: Aplicação de prototipagem, MVPs e testes A/B para validação técnica e de uso antes do rollout final. Centricidade no Usuário: Mapeamento das dores dos operadores de segurança pública e engajamento dos champions (usuários-chave) para viabilizar a adoção das soluções. Estratégia de Lançamento: Definição da proposta de valor dos novos módulos e planejamento de comunicação/distribuição para maximizar a utilização do sistema em operações em tempo real."
-        
       ],
       "tags": [
         { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
@@ -47,8 +50,14 @@
       ]
     },
     {
-      "cargo": "Gerente de projetos / Scrum Master",
-      "periodo": "Out de 2025 – 2026",
+      "cargo": [
+        "Gerente de projetos",
+        "Scrum Master",
+        "Analista de Requisitos e Negócios",
+        "Product Owner (PO)"
+      ],
+      "periodo": "Out de 2025 – Out de 2026",
+      "tempo": "1 ano",
       "empresa": "FioTEC (RPA)",
       "cliente": "Minist. da Saúde (MS)",
       "descricoes": [
@@ -60,7 +69,6 @@
         "Elicitação e escrita de Histórias de Usuário (HU), especificação de regras de negócio e documentação funcional. Suporte estratégico ao Product Owner na gestão, refinamento e priorização contínua do Backlog.",
         "◼ Produto, Experimentação & Lançamentos:",
         "Validação de hipóteses por meio de prototipagem, MVPs e testes A/B. Mapeamento de dores do público-alvo, definição da proposta de valor e engajamento dos usuários promotores (champions). Planejamento e comunicação estratégica de lançamentos para garantir alta adesão e engajamento dos usuários. Incentivo a uma cultura de experimentação, aprendizado contínuo e trocas de feedback construtivas"
-        
       ],
       "tags": [
         { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
@@ -87,8 +95,14 @@
       ]
     },
     {
-      "cargo": "Scrum Master / Gerente de Projetos Ágeis",
+      "cargo": [
+        "Scrum Master",
+        "Gerente de Projetos Ágeis",
+        "Analista de Requisitos e Negócios",
+        "Product Owner (PO)"
+      ],
       "periodo": "Abril de 2021 – maio de 2025",
+      "tempo": "4 anos e 2 meses",
       "empresa": "GLOBAL HITSS",
       "cliente": "Minist. do Desenvolvimento Social (MDS) / Minist. da Agricultura (MAPA) / Minist. da Pesca (MPA) / Defensoria Pública da União (DPU)",
       "descricoes": [
@@ -135,8 +149,12 @@
       ]
     },
     {
-      "cargo": "Analista de Governança e Compliance",
+      "cargo": [
+        "Analista de Governança e Compliance",
+        "Analista de Requisitos e Negócios"
+      ],
       "periodo": "fevereiro de 2021 – abril de 2021",
+      "tempo": "3 meses",
       "empresa": "DATAINFO SOLUÇÕES EM TI",
       "cliente": "Minist. do Desenvolvimento Social (MDS)",
       "descricoes": [
@@ -170,8 +188,13 @@
       ]
     },
     {
-      "cargo": "Analista de Requisitos e Negócios / Gerente de projetos",
+      "cargo": [
+        "Analista de Requisitos e Negócios",
+        "Gerente de projetos",
+        "Product Owner (PO)"
+      ],
       "periodo": "agosto de 2018 – novembro de 2020",
+      "tempo": "2 anos e 4 meses",
       "empresa": "MONTREAL",
       "cliente": "Minist. do Desenvolvimento Social (MDS)",
       "descricoes": [
@@ -207,8 +230,11 @@
       ]
     },
     {
-      "cargo": "Analista de Sistemas",
+      "cargo": [
+        "Analista de Requisitos e Negócios"
+      ],
       "periodo": "julho de 2018 – agosto de 2018",
+      "tempo": "1 mês",
       "empresa": "VERT INTEGRADORA DE TI",
       "cliente": "Defensoria Pública da União (DPU)",
       "descricoes": [
@@ -233,8 +259,13 @@
       ]
     },
     {
-      "cargo": "Analista de Sistemas / Gerente de projetos",
+      "cargo": [
+        "Analista de Sistemas",
+        "Gerente de projetos",
+        "Coordenador"
+      ],
       "periodo": "maio de 2012 – janeiro de 2018",
+      "tempo": "5 anos e 8 meses",
       "empresa": "CTIS TECNOLOGIA",
       "cliente": "CTIS / SONDA",
       "descricoes": [
@@ -264,8 +295,12 @@
       ]
     },
     {
-      "cargo": "Analista de Sistemas/Análise de Requisitos",
+      "cargo": [
+        "Analista de Sistemas",
+        "Analista de Requisitos e Negócios"
+      ],
       "periodo": "dezembro de 2008 – abril de 2012",
+      "tempo": "3 anos e 4 meses",
       "empresa": "Universidade de Brasília (UnB)",
       "cliente": "Universidade de Brasília (UnB)",
       "descricoes": [
@@ -295,8 +330,11 @@
       ]
     },
     {
-      "cargo": "Conselheiro Tutelar",
+      "cargo": [
+        "Conselheiro Tutelar"
+      ],
       "periodo": "abril de 2007 – janeiro de 2008",
+      "tempo": "9 meses",
       "empresa": "Prefeitura Municipal de Arapoti",
       "cliente": "Conselho Tutelar de Arapoti",
       "descricoes": [
@@ -309,8 +347,11 @@
       ]
     },
     {
-      "cargo": "Atendente Tele operador",
+      "cargo": [
+        "Atendente Tele operador"
+      ],
       "periodo": "novembro de 2005 – janeiro de 2007",
+      "tempo": "1 ano e 2 meses",
       "empresa": "Direta Consultoria, Assessoria e Serv. de Informática",
       "cliente": "Detran-PR",
       "descricoes": [
@@ -324,8 +365,11 @@
       ]
     },
     {
-      "cargo": "Técnico de redes",
+      "cargo": [
+        "Técnico de redes"
+      ],
       "periodo": "maio de 2005 – outubro de 2005",
+      "tempo": "5 meses",
       "empresa": "NET-CTI Provedor de internet",
       "cliente": "Capal, Carteira de Clientes",
       "descricoes": [
