@@ -7,7 +7,7 @@
   <li>script.js</li>
   <li>assets/
     <ol>
-      <li>foto.jpg/li>
+      <li>foto.jpg</li>
       <li>curriculo.pdf</li>
     </ol>
   </li>
