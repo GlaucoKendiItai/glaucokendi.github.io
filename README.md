@@ -1,9 +1,13 @@
 # Glauco Kendi Itai
 
-1. meu-portfolio/
-    1. index.html
-    2. style.css
-    3. script.js (opcional)
-    4. assets/
-       4.1. foto.jpg
-       4.2. curriculo.pdf
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+    <ol>
+      <li>Indented item</li>
+      <li>Indented item</li>
+    </ol>
+  </li>
+  <li>Fourth item</li>
+</ol>
