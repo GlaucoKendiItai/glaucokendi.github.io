@@ -1,13 +1,14 @@
 # Glauco Kendi Itai
 
+## meu-portfolio/
 <ol>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item
+  <li>index.html</li>
+  <li>style.css</li>
+  <li>script.js</li>
+  <li>assets/
     <ol>
-      <li>Indented item</li>
-      <li>Indented item</li>
+      <li>foto.jpg/li>
+      <li>curriculo.pdf</li>
     </ol>
   </li>
-  <li>Fourth item</li>
 </ol>
