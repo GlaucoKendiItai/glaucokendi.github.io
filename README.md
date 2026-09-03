@@ -1,14 +1,14 @@
 # Glauco Kendi Itai
 
 ## meu-portfolio/
-<ol>
+<ul>
   <li>index.html</li>
   <li>style.css</li>
   <li>script.js</li>
   <li>assets/
-    <ol>
+    <ul>
       <li>foto.jpg</li>
       <li>curriculo.pdf</li>
-    </ol>
+    </ul>
   </li>
-</ol>
+</ul>
