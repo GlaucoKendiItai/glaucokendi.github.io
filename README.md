@@ -6,7 +6,7 @@
       <li>index.html</li>
       <li>style.css</li>
       <li>script.js</li>
-      <li>assets/
+      <li>ativos/
         <ul>
           <li>foto.jpg</li>
           <li>curriculo.pdf</li>
