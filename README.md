@@ -12,5 +12,6 @@
           <li>curriculo.pdf</li>
         </ul>
       </li>
+    </ul>
   </li>
 </ul>
