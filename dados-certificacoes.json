@@ -5,14 +5,14 @@
       "instituicao": "Faculdade Alvorada de Informática Processamento de Dados",
       "tipo": "Graduação Bacharelado",
       "ano": "2011",
-      "linkDownload": "https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/ALVORADA.png"
+      "linkDownload": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/ALVORADA.png?raw=true"
     },
     {
       "titulo": "BACHAREL EM SISTEMAS DE INFORMAÇÃO",
       "instituicao": "Instituto Euro-Americano de Educação, Ciência e Tecnologia S.A",
       "tipo": "Graduação Bacharelado",
       "ano": "2026",
-      "linkDownload": "https://raw.githubusercontent.com/GlaucoKendiItai/meubancodeimagens/main/UNIEURO.png"
+      "linkDownload": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/UNIEURO.png?raw=true"
     },
     {
       "titulo": "GERENCIAMENTO ÁGIL DE PROJETOS",
@@ -24,102 +24,102 @@
   ],
   "certificacoes": [
     {
-      "titulo": "Scrum Foundation Professional Certificate",
+      "titulo": "Scrum Foundation Professional Certificate - (SFPC)",
       "instituicao": "CertiProf",
       "duracao": "Avaliação de Proficiência",
       "ano": "2020",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/SFPC.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/SFPC.png?raw=true"
     },
     {
-      "titulo": "Kanban Essentials Professional Certificate",
+      "titulo": "Kanban Essentials Professional Certificate - (KEPC)",
       "instituicao": "CertiProf",
       "duracao": "Avaliação de Proficiência",
       "ano": "2021",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/KEPC.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/KEPC.png?raw=true"
     },
     {
       "titulo": "White Belt em Lean Six-Sigma",
       "instituicao": "Edit",
       "duracao": "Avaliação de Proficiência",
       "ano": "2020",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/WBLSS.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/WBLSS.png?raw=true"
     },
     {
       "titulo": "White Belt em Lean Six-Sigma",
       "instituicao": "Claro - CapacitaTI",
       "duracao": "Até 40 horas",
       "ano": "2022",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/WBLSS-Claro.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/WBLSS-Claro.png?raw=true"
     },
     {
       "titulo": "Yellow Belt em Lean Six-Sigma",
       "instituicao": "Claro - CapacitaTI",
       "duracao": "Até 40 horas",
       "ano": "2022",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/YBLSS-Claro.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/YBLSS-Claro.png?raw=true"
     },
     {
       "titulo": "Analise de Negócios",
       "instituicao": "Udemy",
       "duracao": "Até 40 horas",
       "ano": "2019",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/ANR.jpg?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/ANR.jpg?raw=true"
     },
     {
-      "titulo": "Lean",
+      "titulo": "Introdução ao Lean",
       "instituicao": "Edit",
       "duracao": "Até 40 horas",
       "ano": "2020",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/LEAN.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/LEAN.png?raw=true"
     },
     {
       "titulo": "PMP-CAPM",
       "instituicao": "Instituto Douglas Franco",
       "duracao": "Até 40 horas",
       "ano": "2019",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/PMP-CAPM.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/PMP-CAPM.png?raw=true"
     },
     {
       "titulo": "Mapeamento e Modelagem de Processos (BPMN)",
       "instituicao": "Gnof",
       "duracao": "Até 40 horas",
       "ano": "2013",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/BPMN.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/BPMN.png?raw=true"
     },
     {
       "titulo": "Configuring and Administering Microsoft SharePoint 2013",
       "instituicao": "Digitall do Brasil",
       "duracao": "Até 40 horas",
       "ano": "2015",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/SHAREPOINT-2013.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/SHAREPOINT-2013.png?raw=true"
     },
     {
-      "titulo": "Configuring and Administering Microsoft SharePoint 2010",
+      "titulo": "10174 - Configuring and Administering Microsoft SharePoint 2010",
       "instituicao": "Hepta",
       "duracao": "Até 40 horas",
       "ano": "2013",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/SHAREPOINT-2010.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/SHAREPOINT-2010.png?raw=true"
     },
     {
       "titulo": "Gerenciamento de TI",
       "instituicao": "Instituto Bradesco",
       "duracao": "Até 40 horas",
       "ano": "2008",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/MODELO%20CERTIFICADO.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/blue.png?raw=true"
     },
     {
       "titulo": "Gestão de Projetos 01",
       "instituicao": "Instituto Bradesco",
       "duracao": "Até 40 horas",
       "ano": "2008",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/GP1.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/GP1.png?raw=true"
     },
     {
       "titulo": "Linguagem HTML",
       "instituicao": "Diogo Mariano",
       "duracao": "Até 40 horas",
       "ano": "2019",
-      "imagem": "https://github.com/GlaucoKendiItai/meubancodeimagens/blob/main/HTML.png?raw=true"
+      "imagem": "https://github.com/GlaucoKendiItai/glaucokendi.github.io/blob/main/ativos/HTML.png?raw=true"
     }
   ],
   "rodape": {
