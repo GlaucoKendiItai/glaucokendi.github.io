@@ -1,0 +1,68 @@
+{
+  "versao": "1.0.0",
+  "dataAtualizacao": "2026-09-07",
+  "canaisContato": [
+    {
+      "tipo": "Telefone / WhatsApp",
+      "icone": "fa-brands fa-whatsapp",
+      "valor": "(43) 9.9642-9944",
+      "link": "https://wa.me/5543996429944",
+      "textoLink": "Iniciar Conversa",
+      "target": "_blank"
+    },
+    {
+      "tipo": "E-mail Pessoal",
+      "icone": "fa-solid fa-envelope",
+      "valor": "glaucok.itai@gmail.com",
+      "link": "mailto:glaucok.itai@gmail.com",
+      "textoLink": "Enviar E-mail",
+      "target": "_self"
+    },
+    {
+      "tipo": "E-mail Profissional",
+      "icone": "fa-solid fa-briefcase",
+      "valor": "per.it.gestao@gmail.com",
+      "link": "mailto:per.it.gestao@gmail.com",
+      "textoLink": "Enviar E-mail",
+      "target": "_self"
+    },
+    {
+      "tipo": "LinkedIn",
+      "icone": "fa-brands fa-linkedin",
+      "valor": "glaucokenditai",
+      "link": "https://www.linkedin.com/in/glaucokenditai/",
+      "textoLink": "Ver Perfil",
+      "target": "_blank"
+    },
+    {
+      "tipo": "Instagram",
+      "icone": "fa-brands fa-instagram",
+      "valor": "@glaucokendi",
+      "link": "https://www.instagram.com/glaucokendi/",
+      "textoLink": "Seguir",
+      "target": "_blank"
+    }
+  ],
+  "rodape": {
+    "nome": "Glauco Kendi Ribeiro Itai",
+    "subtitulo": "Gerente de Projetos, Scrum Master e Product Owner (PO)",
+    "versao": "v1.0.0",
+    "redesSociais": [
+      {
+        "plataforma": "LinkedIn",
+        "url": "https://www.linkedin.com/in/glaucokenditai/",
+        "icone": "fa-brands fa-linkedin"
+      },
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/glaucokendi/",
+        "icone": "fa-brands fa-instagram"
+      },
+      {
+        "plataforma": "WhatsApp",
+        "url": "https://wa.me/5543996429944",
+        "icone": "fa-brands fa-whatsapp"
+      }
+    ]
+  }
+}
