@@ -1609,3 +1609,15 @@ footer {
     color: var(--primary-accent, #2563eb);
     font-size: 1rem;
 }
+.footer-bottom {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.footer-version {
+    font-size: 0.75rem;
+    color: #a0aec0;
+    letter-spacing: 0.5px;
+}
