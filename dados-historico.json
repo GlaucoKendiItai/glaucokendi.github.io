@@ -1,11 +1,56 @@
 {
   "experiencias": [
-    {
+   {
+      "cargo": [
+        "Gerente de projetos",
+        "Scrum Master",
+        "Analista de Requisitos e Negócios",
+        "Product Owner (PO)"
+      ],
+      "periodo": "Out de 2025 – Até o Momento",
+      "tempo": "1 ano",
+      "empresa": "FioTEC (RPA)",
+      "cliente": "Minist. da Saúde (MS)",
+      "descricoes": [
+        "◼ Atuação:",
+        "Destaque para a atuação no SisDJUD (Sistema das Demandas em Judicialização na Saúde) junto ao Departamento de Gestão das Demandas em Judicialização na Saúde (DJUD), liderando entregas estratégicas e otimizando processos de software.",
+        "◼ Gestão de Projetos & Agilidade:",
+        "Planejamento e sequenciamento de pipeline com foco em mapeamento de dependências e mitigação de riscos de atraso/bloqueios. Monitoramento contínuo de métricas estratégicas: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio. Alinhamento do propósito e escopo do time de desenvolvimento com os objetivos estratégicos e OKRs da instituição.",
+        "◼ Análise de Requisitos & Apoio ao PO:",
+        "Elicitação e escrita de Histórias de Usuário (HU), especificação de regras de negócio e documentação funcional. Suporte estratégico ao Product Owner na gestão, refinamento e priorização contínua do Backlog.",
+        "◼ Produto, Experimentação & Lançamentos:",
+        "Validação de hipóteses por meio de prototipagem, MVPs e testes A/B. Mapeamento de dores do público-alvo, definição da proposta de valor e engajamento dos usuários promotores (champions). Planejamento e comunicação estratégica de lançamentos para garantir alta adesão e engajamento dos usuários. Incentivo a uma cultura de experimentação, aprendizado contínuo e trocas de feedback construtivas"
+      ],
+      "tags": [
+        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
+        { "nome": "SAFe (Scaled Agile Framework)", "classe": "tag-agile" },
+        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
+        { "nome": "DoD (Definition of Done)", "classe": "tag-agile" },
+        { "nome": "RaodMap", "classe": "tag-agile" },
+        { "nome": "PDCA (Melhoria Contínua)", "classe": "tag-agile" },
+        { "nome": "Jira & Jira Align", "classe": "tag-biz" },
+        { "nome": "GIT (Controle de Versão)", "classe": "tag-pm" },
+        { "nome": "IA (Inteligência artificial)", "classe": "tag-pm" },
+        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
+        { "nome": "Gestão de Backlog", "classe": "tag-tech" },
+        { "nome": "Gestão de Contrato", "classe": "tag-tech" },
+        { "nome": "Gestão de Escopo", "classe": "tag-tech" },
+        { "nome": "Gestão de Mudanças", "classe": "tag-tech" },
+        { "nome": "Gestão de Pessoas", "classe": "tag-tech" },
+        { "nome": "Gestão de Prazos", "classe": "tag-tech" },
+        { "nome": "Gestão de Riscos", "classe": "tag-tech" },
+        { "nome": "Liderança", "classe": "tag-soft" },
+        { "nome": "Negociação", "classe": "tag-soft" },
+        { "nome": "Comunicação", "classe": "tag-soft" },
+        { "nome": "Profissionalismo", "classe": "tag-soft" }
+      ]
+    },
+     {
       "cargo": [
         "Scrum Master",
         "Gerente de Projetos"
       ],
-      "periodo": "Set de 2025 – Até momento",
+      "periodo": "Set de 2025 – Set de 2026",
       "tempo": "1 ano",
       "empresa": "QINTESS",
       "cliente": "Minist. da Justiça e Segurança Pública (MJSP)",
@@ -47,51 +92,6 @@
         { "nome": "Gestão de Mudanças Organizacionais", "classe": "tag-soft" },
         { "nome": "Profissionalismo", "classe": "tag-soft" },
         { "nome": "Ética", "classe": "tag-soft" }
-      ]
-    },
-    {
-      "cargo": [
-        "Gerente de projetos",
-        "Scrum Master",
-        "Analista de Requisitos e Negócios",
-        "Product Owner (PO)"
-      ],
-      "periodo": "Out de 2025 – Out de 2026",
-      "tempo": "1 ano",
-      "empresa": "FioTEC (RPA)",
-      "cliente": "Minist. da Saúde (MS)",
-      "descricoes": [
-        "◼ Atuação:",
-        "Destaque para a atuação no SisDJUD (Sistema das Demandas em Judicialização na Saúde) junto ao Departamento de Gestão das Demandas em Judicialização na Saúde (DJUD), liderando entregas estratégicas e otimizando processos de software.",
-        "◼ Gestão de Projetos & Agilidade:",
-        "Planejamento e sequenciamento de pipeline com foco em mapeamento de dependências e mitigação de riscos de atraso/bloqueios. Monitoramento contínuo de métricas estratégicas: Cronograma, Orçamento, Qualidade, Produtividade e Valor Entregue ao Negócio. Alinhamento do propósito e escopo do time de desenvolvimento com os objetivos estratégicos e OKRs da instituição.",
-        "◼ Análise de Requisitos & Apoio ao PO:",
-        "Elicitação e escrita de Histórias de Usuário (HU), especificação de regras de negócio e documentação funcional. Suporte estratégico ao Product Owner na gestão, refinamento e priorização contínua do Backlog.",
-        "◼ Produto, Experimentação & Lançamentos:",
-        "Validação de hipóteses por meio de prototipagem, MVPs e testes A/B. Mapeamento de dores do público-alvo, definição da proposta de valor e engajamento dos usuários promotores (champions). Planejamento e comunicação estratégica de lançamentos para garantir alta adesão e engajamento dos usuários. Incentivo a uma cultura de experimentação, aprendizado contínuo e trocas de feedback construtivas"
-      ],
-      "tags": [
-        { "nome": "Scrum (Framework Ágil Principal)", "classe": "tag-agile" },
-        { "nome": "SAFe (Scaled Agile Framework)", "classe": "tag-agile" },
-        { "nome": "Agile Coaching & Transformação Ágil", "classe": "tag-agile" },
-        { "nome": "DoD (Definition of Done)", "classe": "tag-agile" },
-        { "nome": "RaodMap", "classe": "tag-agile" },
-        { "nome": "PDCA (Melhoria Contínua)", "classe": "tag-agile" },
-        { "nome": "Jira & Jira Align", "classe": "tag-biz" },
-        { "nome": "GIT (Controle de Versão)", "classe": "tag-pm" },
-        { "nome": "IA (Inteligência artificial)", "classe": "tag-pm" },
-        { "nome": "Suítes de Produtividade (MS Office)", "classe": "tag-pm" },
-        { "nome": "Gestão de Backlog", "classe": "tag-tech" },
-        { "nome": "Gestão de Contrato", "classe": "tag-tech" },
-        { "nome": "Gestão de Escopo", "classe": "tag-tech" },
-        { "nome": "Gestão de Mudanças", "classe": "tag-tech" },
-        { "nome": "Gestão de Pessoas", "classe": "tag-tech" },
-        { "nome": "Gestão de Prazos", "classe": "tag-tech" },
-        { "nome": "Gestão de Riscos", "classe": "tag-tech" },
-        { "nome": "Liderança", "classe": "tag-soft" },
-        { "nome": "Negociação", "classe": "tag-soft" },
-        { "nome": "Comunicação", "classe": "tag-soft" },
-        { "nome": "Profissionalismo", "classe": "tag-soft" }
       ]
     },
     {
