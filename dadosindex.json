@@ -1,7 +1,7 @@
 {
   "perfil": {
     "nome": "Glauco Kendi Itai",
-    "titulo": "Gerente de Projetos | Scrum Master | Product Owner",
+    "titulo": "Gerente de Projetos | Scrum Master | Product Owner | Gestão Ágil de Projetos",
     "localidade": "Brasília, DF",
     "email": "glaucok.itai@gmail.com",
     "telefone": "(61) 9.9804-3900 | (43) 9.9642-9944",
@@ -38,7 +38,8 @@
   ],
   "idiomas": [
     { "idioma": "Português", "nivel": "Nativo" },
-    { "idioma": "Espanhol", "nivel": "Básico" }
+    { "idioma": "Espanhol", "nivel": "Técnico" },
+    { "idioma": "Inglês", "nivel": "Técnico" }
   ],
   "dadosComplementares": [
     { "icone": "fa-plane", "texto": "Disponibilidade para viajar" },
