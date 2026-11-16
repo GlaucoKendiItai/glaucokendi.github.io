@@ -70,7 +70,8 @@ const tempoEmpresas = {
     "DATAINFO": "3 meses",
     "GLOBAL HITSS": "4 anos e 2 meses",
     "QINTESS": "1 ano",
-    "FioTEC": "1 ano"
+    "FioTEC": "1 ano",
+    "Certsys":"1 mês"
 };
 
 // Função atualizada para exibir a empresa e o tempo de atuação correspondente
