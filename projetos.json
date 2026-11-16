@@ -547,6 +547,48 @@
     "deliveryPercentage": "90%",
     "evaluation": "N/A"
   },
+  "siiga": {
+    "title": "SIIGA",
+    "company": "Certsys",
+    "allocation": "Caixa Economica Federal (CEF)",
+    "roles": [
+      "Scrum Master"
+    ],
+    "skills": [
+      "FrameWork Ágil (SCRUM)",
+      "Kick-off",
+      "Histórias de Usuário (HUs)",
+      "Backlog",
+      "Service Now",
+      "Engenharia de Requisitos e Negócio",
+      "Liderança Ágil Multi-projeto",
+      "Governança e Operações"
+    ],
+    "description": "SIIGA.",
+    "deliveryPercentage": "N/A",
+    "evaluation": "Implementando o MVP"
+  },
+  "siigacg": {
+    "title": "SIIGA-GC",
+    "company": "Certsys",
+    "allocation": "Caixa Economica Federal (CEF)",
+    "roles": [
+      "Scrum Master"
+    ],
+    "skills": [
+      "FrameWork Ágil (SCRUM)",
+      "Kick-off",
+      "Histórias de Usuário (HUs)",
+      "Backlog",
+      "Service Now",
+      "Engenharia de Requisitos e Negócio",
+      "Liderança Ágil Multi-projeto",
+      "Governança e Operações"
+    ],
+    "description": "SIIGA Gestão de Canais",
+    "deliveryPercentage": "N/A",
+    "evaluation": "Implementando o MVP"
+  },
   "sisdjud": {
     "title": "Sistema das Demandas em Judicialização na Saúde (SisDJUD)",
     "company": "FioTEC",
